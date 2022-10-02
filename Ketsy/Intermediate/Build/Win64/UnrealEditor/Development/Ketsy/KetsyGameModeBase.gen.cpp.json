@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\michaelryzen9\\documents\\github\\repos\\mobilegameios\\ketsy\\intermediate\\build\\win64\\unrealeditor\\inc\\ketsy\\ketsygamemodebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\michaelryzen9\\documents\\github\\repos\\mobilegameios\\ketsy\\intermediate\\build\\win64\\ketsyeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\michaelryzen9\\documents\\github\\repos\\mobilegameios\\ketsy\\intermediate\\build\\win64\\unrealeditor\\development\\ketsy\\definitions.ketsy.h",
+            "c:\\users\\michaelryzen9\\documents\\github\\repos\\mobilegameios\\ketsy\\source\\ketsy\\ketsygamemodebase.h",
+            "z:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "z:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "z:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "z:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\michaelryzen9\\documents\\github\\repos\\mobilegameios\\ketsy\\intermediate\\build\\win64\\unrealeditor\\inc\\ketsy\\ketsygamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

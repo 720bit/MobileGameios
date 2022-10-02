@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Ketsy",
-			"Path": "/Users/michaelbahena/Documents/Unreal Projects/Ketsy/Source/Ketsy.Target.cs",
+			"Path": "C:\\Users\\MichaelRyzen9\\Documents\\GitHub\\Repos\\MobileGameios\\Ketsy\\Source\\Ketsy.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "KetsyEditor",
-			"Path": "/Users/michaelbahena/Documents/Unreal Projects/Ketsy/Source/KetsyEditor.Target.cs",
+			"Path": "C:\\Users\\MichaelRyzen9\\Documents\\GitHub\\Repos\\MobileGameios\\Ketsy\\Source\\KetsyEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

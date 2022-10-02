@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Ketsy.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\MichaelRyzen9\Documents\GitHub\Repos\MobileGameios\Ketsy\Intermediate\Build\Win64\KetsyEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\MichaelRyzen9\Documents\GitHub\Repos\MobileGameios\Ketsy\Intermediate\Build\Win64\UnrealEditor\Development\Ketsy\Ketsy.cpp.obj"
+"C:\Users\MichaelRyzen9\Documents\GitHub\Repos\MobileGameios\Ketsy\Intermediate\Build\Win64\UnrealEditor\Development\Ketsy\KetsyGameModeBase.cpp.obj"
+"C:\Users\MichaelRyzen9\Documents\GitHub\Repos\MobileGameios\Ketsy\Intermediate\Build\Win64\UnrealEditor\Development\Ketsy\Ketsy.init.gen.cpp.obj"
+"C:\Users\MichaelRyzen9\Documents\GitHub\Repos\MobileGameios\Ketsy\Intermediate\Build\Win64\UnrealEditor\Development\Ketsy\KetsyGameModeBase.gen.cpp.obj"
+"C:\Users\MichaelRyzen9\Documents\GitHub\Repos\MobileGameios\Ketsy\Intermediate\Build\Win64\UnrealEditor\Development\Ketsy\Default.rc2.res"
+/OUT:"C:\Users\MichaelRyzen9\Documents\GitHub\Repos\MobileGameios\Ketsy\Intermediate\Build\Win64\UnrealEditor\Development\Ketsy\UnrealEditor-Ketsy.lib"
