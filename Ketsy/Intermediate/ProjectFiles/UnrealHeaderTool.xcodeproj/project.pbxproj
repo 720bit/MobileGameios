@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C981A552D4884CB0CDDD8B31 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 42E810EA783319D9F5BA282C /* DefaultEngine.ini */; };
+		D0884A5BCBB0666DCC16A4FD /* BaseParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 368BFB2DF5D5A900A4EEE13D /* BaseParser.cpp */; };
+		17B1E7CF83E3A2DAF9A92C5C /* BaseParser.h in Sources */ = {isa = PBXBuildFile; fileRef = 1AE0AEAF2E09B1293AA61B14 /* BaseParser.h */; };
+		40DBED250190BA6ECC82E840 /* ClassMaps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698A96D6C9EFB87EF3E0ABA6 /* ClassMaps.cpp */; };
+		81FD0BD20C7D08C1CCD4AA34 /* ClassMaps.h in Sources */ = {isa = PBXBuildFile; fileRef = 4821AE6E210D730637EB78F1 /* ClassMaps.h */; };
+		66DB81CCBD1D5F7E19E3B576 /* CodeGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7586B032BE073875EF507A11 /* CodeGenerator.cpp */; };
+		EC6DFE2DBBFE920CB348F9FF /* EngineAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF930B9EAA9E5ED7B1076A /* EngineAPI.cpp */; };
+		3673348373CB96E1A60CD9CE /* EngineAPI.h in Sources */ = {isa = PBXBuildFile; fileRef = A494604F0EE23061E1C7E5D4 /* EngineAPI.h */; };
+		F9B8B242217BB5E49279E7A2 /* Exceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CED10430AC5EB6B7A42F741 /* Exceptions.cpp */; };
+		13D557DF24D6656E20E52BA0 /* Exceptions.h in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB39F6A1A0DC409976FE98 /* Exceptions.h */; };
+		3E9D370FFCDB61D31CB1D89B /* GeneratedCodeVersion.h in Sources */ = {isa = PBXBuildFile; fileRef = 0C741DEF4053EE58EA7D2991 /* GeneratedCodeVersion.h */; };
+		8DF9DD57DE44A30ED0640D38 /* HeaderParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79B69B8679FC3053F71F2D5B /* HeaderParser.cpp */; };
+		514C870AE202355F3046E664 /* HeaderParser.h in Sources */ = {isa = PBXBuildFile; fileRef = 58AA72F0201424B7B1FACA55 /* HeaderParser.h */; };
+		1B747783954606B7C17150C8 /* HeaderProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 881F2FFE196AAC8904AEA761 /* HeaderProvider.cpp */; };
+		DF98107ABC937C7A1F887A40 /* HeaderProvider.h in Sources */ = {isa = PBXBuildFile; fileRef = 1CDBE8AE7D31A12A581DCB3B /* HeaderProvider.h */; };
+		F52715144E7B2B52DBDE9FBB /* IScriptGeneratorPluginInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC726000E43730F42BF6D4C /* IScriptGeneratorPluginInterface.cpp */; };
+		D1C93DA0F252BCC173A6BDB0 /* Manifest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5356F0197C796BC68DB99695 /* Manifest.cpp */; };
+		62C23405963F94E41E6EC18C /* Manifest.h in Sources */ = {isa = PBXBuildFile; fileRef = F3F836E3D314C79A1310E656 /* Manifest.h */; };
+		9EB0B5FDF1371393C89AABD8 /* NativeClassExporter.h in Sources */ = {isa = PBXBuildFile; fileRef = F6228AE3C36596E57BC4B60C /* NativeClassExporter.h */; };
+		230B3A388F03C71833A8BFF4 /* ParserHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E76800C6662E201DD754E8 /* ParserHelper.cpp */; };
+		BE7BCDAEDE8B9A6F0D6CBD58 /* ParserHelper.h in Sources */ = {isa = PBXBuildFile; fileRef = 3275B59640B8B8F3C650E2A0 /* ParserHelper.h */; };
+		0B17A6E38A8A59593C401C33 /* PropertyTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319C1D432A0DEA1D81FE645E /* PropertyTypes.cpp */; };
+		D0951D33E4196CA127CDE7E4 /* PropertyTypes.h in Sources */ = {isa = PBXBuildFile; fileRef = C7AE5A7F3E983A2CB37759DD /* PropertyTypes.h */; };
+		6F9DDA1877F99A1E7FFAC2BA /* Scope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAD2BD931BE82251F99B8129 /* Scope.cpp */; };
+		EA8BFEA9C530A27195D3C46C /* Scope.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF4F6F50D31FD9C47A7D91 /* Scope.h */; };
+		F6F364952BCC663C51445C46 /* CheckedMetadataSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CAB6942C88D6208B162FF /* CheckedMetadataSpecifiers.def */; };
+		0BDB87BDDDF6CC4FB9FAB846 /* CheckedMetadataSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 739A3FC7E360DA0FA4341024 /* CheckedMetadataSpecifiers.h */; };
+		F6036D70493A227EA1C19567 /* ClassMetadataSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = CE670FD57E6A8F3C5BBEEC18 /* ClassMetadataSpecifiers.def */; };
+		8991453C5EC3AD043A1324D4 /* ClassMetadataSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 019A4152EE01A6047564D72E /* ClassMetadataSpecifiers.h */; };
+		3F143B19DC1FB93A66936E3F /* EnumSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = 30E42E27AE89F11FF23BD928 /* EnumSpecifiers.def */; };
+		63DABE468413CB449164759B /* EnumSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 5953CBD111C02CD85C1320C4 /* EnumSpecifiers.h */; };
+		29109245564AF0D9931BA5CD /* FunctionSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = 3C142A61664D5FDFAE800092 /* FunctionSpecifiers.def */; };
+		1F8F7212717F329C1977BF98 /* FunctionSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 487E3A4FC2D7AC987E0ACE28 /* FunctionSpecifiers.h */; };
+		409FAF05CF62E625B917465A /* InterfaceSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = 553DBB00F1A5323F04DA8387 /* InterfaceSpecifiers.def */; };
+		A9262CE10C3CBBEE47312529 /* InterfaceSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 41C237CA7D5FDEC634D09211 /* InterfaceSpecifiers.h */; };
+		F1D1850BD59BD23716552FA9 /* SpecifierArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CAF3FDB6FAEB721B47F41 /* SpecifierArrays.cpp */; };
+		3B3F00A7C4E6CAD7CA6214B6 /* StructSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = CAEB437C3EC9FF4274168521 /* StructSpecifiers.def */; };
+		8D3D9F3104C98014C149AF97 /* StructSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = C0EC1706AB7B07E4089EF66E /* StructSpecifiers.h */; };
+		AE8E4BB68BAD13661B2813FE /* VariableSpecifiers.def in Sources */ = {isa = PBXBuildFile; fileRef = DCDB501E440E43000E1275D4 /* VariableSpecifiers.def */; };
+		F4071D1FF813A46D982C6ECA /* VariableSpecifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 4F8093EEB282F29E0676665C /* VariableSpecifiers.h */; };
+		5063AC50B4B8299CD7BFF7F3 /* StringUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B607D3FADFDB62662231E3B2 /* StringUtils.cpp */; };
+		E03767ACDC6ACE36B9C8B1B9 /* StringUtils.h in Sources */ = {isa = PBXBuildFile; fileRef = 9F1F7A6A7789594EF090F8C3 /* StringUtils.h */; };
+		942E231839AA8C477152EB56 /* UnrealHeaderTool.h in Sources */ = {isa = PBXBuildFile; fileRef = E3B0DC6D092B0AE82915153F /* UnrealHeaderTool.h */; };
+		F258F396B5945F7DF583E962 /* UnrealHeaderToolGlobals.h in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9E6535AFF8664C578396B /* UnrealHeaderToolGlobals.h */; };
+		E830205E9B26064F3EA39807 /* UnrealHeaderToolMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12EF12E3624298BAF4D960BC /* UnrealHeaderToolMain.cpp */; };
+		AC24F755BA17106F8D605B38 /* UnrealHeaderToolStats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECFE66CA0642498AF8C80689 /* UnrealHeaderToolStats.cpp */; };
+		273BDE977ADB0696841A9B98 /* UnrealHeaderToolStats.h in Sources */ = {isa = PBXBuildFile; fileRef = 49854E013EC98D3B47E0C98C /* UnrealHeaderToolStats.h */; };
+		0C8C3C68C8E3A81E606EB14D /* UnrealSourceFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37A7C77D6B20E51CD479C4A2 /* UnrealSourceFile.cpp */; };
+		6395DC0BD7716716616FD696 /* UnrealSourceFile.h in Sources */ = {isa = PBXBuildFile; fileRef = 084A309DB8639B97E7F574F6 /* UnrealSourceFile.h */; };
+		E0FD38D55872DF5781323919 /* UnrealTypeDefinitionInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4946DDE8925F0B2EDC29DC9 /* UnrealTypeDefinitionInfo.cpp */; };
+		BCEFEC86947CAB4CB6522B02 /* UnrealTypeDefinitionInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = C75E4F50FFA194AB351AC81E /* UnrealTypeDefinitionInfo.h */; };
+		FEA704E21B4EEC07CF10E319 /* IScriptGeneratorPluginInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = DDAC1A46592CB7814881B280 /* IScriptGeneratorPluginInterface.h */; };
+		394730077DFDDE2435BC716D /* UHTDebugging.manifest in Sources */ = {isa = PBXBuildFile; fileRef = E0CD4C63612CD9792CBA6944 /* UHTDebugging.manifest */; };
+		D3782F648570717FDEEBFEF4 /* DocumentationObjects.h in Sources */ = {isa = PBXBuildFile; fileRef = E98FEB129381D6D1A2D89055 /* DocumentationObjects.h */; };
+		0888134E382329EF960F2B73 /* EnumOnlyHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = D30C50C450A662D40DEA245B /* EnumOnlyHeader.h */; };
+		844C322DCAAAAB9031717361 /* RigVMStructHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = 20C2B73F920737DE201FF408 /* RigVMStructHeader.h */; };
+		BB50408B1353B9FBE8D98870 /* StructOnlyHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = 47EB2748B4E09131152B1ECF /* StructOnlyHeader.h */; };
+		DC1429865795371E63B77ABF /* TestDeprecatedObject.h in Sources */ = {isa = PBXBuildFile; fileRef = F4C46A259EAC95E70D5BDBC0 /* TestDeprecatedObject.h */; };
+		D58032955303921ED38072F7 /* TestInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = 761AB68EBD3AD5E338A9EF3C /* TestInterface.h */; };
+		C8988834C2FE926457295849 /* TestInterfaceObject.h in Sources */ = {isa = PBXBuildFile; fileRef = 78153C2DDE558DA050C0C877 /* TestInterfaceObject.h */; };
+		17B132F643A947803868CA07 /* TestObject.h in Sources */ = {isa = PBXBuildFile; fileRef = 54AB0B10FE7FD71A3CF9DDB2 /* TestObject.h */; };
+		51A921E54A11D02B91F6CDBB /* TestObjectSerializers.h in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D5BD5ED0D9F4CC26C16A8 /* TestObjectSerializers.h */; };
+		4D80AE64BA0314CDC12ECA98 /* UnrealHeaderTool.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 917E5705291FDC91905EEA9E /* UnrealHeaderTool.Build.cs */; };
+		102446793638E1E773194BBB /* UnrealHeaderTool.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 940AC694D607EE88F16DFF10 /* UnrealHeaderTool.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42E810EA783319D9F5BA282C /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Programs/UnrealHeaderTool/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		368BFB2DF5D5A900A4EEE13D /* BaseParser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BaseParser.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/BaseParser.cpp"; sourceTree = SOURCE_ROOT; };
+		1AE0AEAF2E09B1293AA61B14 /* BaseParser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BaseParser.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/BaseParser.h"; sourceTree = SOURCE_ROOT; };
+		698A96D6C9EFB87EF3E0ABA6 /* ClassMaps.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ClassMaps.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/ClassMaps.cpp"; sourceTree = SOURCE_ROOT; };
+		4821AE6E210D730637EB78F1 /* ClassMaps.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ClassMaps.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/ClassMaps.h"; sourceTree = SOURCE_ROOT; };
+		7586B032BE073875EF507A11 /* CodeGenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CodeGenerator.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/CodeGenerator.cpp"; sourceTree = SOURCE_ROOT; };
+		8CAF930B9EAA9E5ED7B1076A /* EngineAPI.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EngineAPI.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/EngineAPI.cpp"; sourceTree = SOURCE_ROOT; };
+		A494604F0EE23061E1C7E5D4 /* EngineAPI.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EngineAPI.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/EngineAPI.h"; sourceTree = SOURCE_ROOT; };
+		0CED10430AC5EB6B7A42F741 /* Exceptions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Exceptions.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Exceptions.cpp"; sourceTree = SOURCE_ROOT; };
+		0ABB39F6A1A0DC409976FE98 /* Exceptions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Exceptions.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Exceptions.h"; sourceTree = SOURCE_ROOT; };
+		0C741DEF4053EE58EA7D2991 /* GeneratedCodeVersion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "GeneratedCodeVersion.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/GeneratedCodeVersion.h"; sourceTree = SOURCE_ROOT; };
+		79B69B8679FC3053F71F2D5B /* HeaderParser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HeaderParser.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderParser.cpp"; sourceTree = SOURCE_ROOT; };
+		58AA72F0201424B7B1FACA55 /* HeaderParser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HeaderParser.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderParser.h"; sourceTree = SOURCE_ROOT; };
+		881F2FFE196AAC8904AEA761 /* HeaderProvider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HeaderProvider.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderProvider.cpp"; sourceTree = SOURCE_ROOT; };
+		1CDBE8AE7D31A12A581DCB3B /* HeaderProvider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HeaderProvider.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderProvider.h"; sourceTree = SOURCE_ROOT; };
+		BDC726000E43730F42BF6D4C /* IScriptGeneratorPluginInterface.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IScriptGeneratorPluginInterface.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/IScriptGeneratorPluginInterface.cpp"; sourceTree = SOURCE_ROOT; };
+		5356F0197C796BC68DB99695 /* Manifest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Manifest.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Manifest.cpp"; sourceTree = SOURCE_ROOT; };
+		F3F836E3D314C79A1310E656 /* Manifest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Manifest.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Manifest.h"; sourceTree = SOURCE_ROOT; };
+		F6228AE3C36596E57BC4B60C /* NativeClassExporter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "NativeClassExporter.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/NativeClassExporter.h"; sourceTree = SOURCE_ROOT; };
+		19E76800C6662E201DD754E8 /* ParserHelper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ParserHelper.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/ParserHelper.cpp"; sourceTree = SOURCE_ROOT; };
+		3275B59640B8B8F3C650E2A0 /* ParserHelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ParserHelper.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/ParserHelper.h"; sourceTree = SOURCE_ROOT; };
+		319C1D432A0DEA1D81FE645E /* PropertyTypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PropertyTypes.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/PropertyTypes.cpp"; sourceTree = SOURCE_ROOT; };
+		C7AE5A7F3E983A2CB37759DD /* PropertyTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PropertyTypes.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/PropertyTypes.h"; sourceTree = SOURCE_ROOT; };
+		DAD2BD931BE82251F99B8129 /* Scope.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Scope.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Scope.cpp"; sourceTree = SOURCE_ROOT; };
+		3CBF4F6F50D31FD9C47A7D91 /* Scope.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Scope.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Scope.h"; sourceTree = SOURCE_ROOT; };
+		4F1CAB6942C88D6208B162FF /* CheckedMetadataSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CheckedMetadataSpecifiers.def"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/CheckedMetadataSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		739A3FC7E360DA0FA4341024 /* CheckedMetadataSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CheckedMetadataSpecifiers.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/CheckedMetadataSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		CE670FD57E6A8F3C5BBEEC18 /* ClassMetadataSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ClassMetadataSpecifiers.def"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/ClassMetadataSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		019A4152EE01A6047564D72E /* ClassMetadataSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ClassMetadataSpecifiers.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/ClassMetadataSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		30E42E27AE89F11FF23BD928 /* EnumSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EnumSpecifiers.def"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/EnumSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		5953CBD111C02CD85C1320C4 /* EnumSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnumSpecifiers.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/EnumSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		3C142A61664D5FDFAE800092 /* FunctionSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FunctionSpecifiers.def"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/FunctionSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		487E3A4FC2D7AC987E0ACE28 /* FunctionSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "FunctionSpecifiers.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/FunctionSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		553DBB00F1A5323F04DA8387 /* InterfaceSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "InterfaceSpecifiers.def"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/InterfaceSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		41C237CA7D5FDEC634D09211 /* InterfaceSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InterfaceSpecifiers.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/InterfaceSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		8A1CAF3FDB6FAEB721B47F41 /* SpecifierArrays.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SpecifierArrays.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/SpecifierArrays.cpp"; sourceTree = SOURCE_ROOT; };
+		CAEB437C3EC9FF4274168521 /* StructSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "StructSpecifiers.def"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/StructSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		C0EC1706AB7B07E4089EF66E /* StructSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "StructSpecifiers.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/StructSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		DCDB501E440E43000E1275D4 /* VariableSpecifiers.def */ = {isa = PBXFileReference; explicitFileType = file.text; name = "VariableSpecifiers.def"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/VariableSpecifiers.def"; sourceTree = SOURCE_ROOT; };
+		4F8093EEB282F29E0676665C /* VariableSpecifiers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "VariableSpecifiers.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/VariableSpecifiers.h"; sourceTree = SOURCE_ROOT; };
+		B607D3FADFDB62662231E3B2 /* StringUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "StringUtils.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/StringUtils.cpp"; sourceTree = SOURCE_ROOT; };
+		9F1F7A6A7789594EF090F8C3 /* StringUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "StringUtils.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/StringUtils.h"; sourceTree = SOURCE_ROOT; };
+		E3B0DC6D092B0AE82915153F /* UnrealHeaderTool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealHeaderTool.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderTool.h"; sourceTree = SOURCE_ROOT; };
+		9BA9E6535AFF8664C578396B /* UnrealHeaderToolGlobals.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealHeaderToolGlobals.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolGlobals.h"; sourceTree = SOURCE_ROOT; };
+		12EF12E3624298BAF4D960BC /* UnrealHeaderToolMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealHeaderToolMain.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolMain.cpp"; sourceTree = SOURCE_ROOT; };
+		ECFE66CA0642498AF8C80689 /* UnrealHeaderToolStats.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealHeaderToolStats.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolStats.cpp"; sourceTree = SOURCE_ROOT; };
+		49854E013EC98D3B47E0C98C /* UnrealHeaderToolStats.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealHeaderToolStats.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolStats.h"; sourceTree = SOURCE_ROOT; };
+		37A7C77D6B20E51CD479C4A2 /* UnrealSourceFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealSourceFile.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealSourceFile.cpp"; sourceTree = SOURCE_ROOT; };
+		084A309DB8639B97E7F574F6 /* UnrealSourceFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealSourceFile.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealSourceFile.h"; sourceTree = SOURCE_ROOT; };
+		C4946DDE8925F0B2EDC29DC9 /* UnrealTypeDefinitionInfo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealTypeDefinitionInfo.cpp"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealTypeDefinitionInfo.cpp"; sourceTree = SOURCE_ROOT; };
+		C75E4F50FFA194AB351AC81E /* UnrealTypeDefinitionInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealTypeDefinitionInfo.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealTypeDefinitionInfo.h"; sourceTree = SOURCE_ROOT; };
+		DDAC1A46592CB7814881B280 /* IScriptGeneratorPluginInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "IScriptGeneratorPluginInterface.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Public/IScriptGeneratorPluginInterface.h"; sourceTree = SOURCE_ROOT; };
+		E0CD4C63612CD9792CBA6944 /* UHTDebugging.manifest */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UHTDebugging.manifest"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging.manifest"; sourceTree = SOURCE_ROOT; };
+		E98FEB129381D6D1A2D89055 /* DocumentationObjects.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DocumentationObjects.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/DocumentationObjects.h"; sourceTree = SOURCE_ROOT; };
+		D30C50C450A662D40DEA245B /* EnumOnlyHeader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnumOnlyHeader.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/EnumOnlyHeader.h"; sourceTree = SOURCE_ROOT; };
+		20C2B73F920737DE201FF408 /* RigVMStructHeader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "RigVMStructHeader.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/RigVMStructHeader.h"; sourceTree = SOURCE_ROOT; };
+		47EB2748B4E09131152B1ECF /* StructOnlyHeader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "StructOnlyHeader.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/StructOnlyHeader.h"; sourceTree = SOURCE_ROOT; };
+		F4C46A259EAC95E70D5BDBC0 /* TestDeprecatedObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestDeprecatedObject.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestDeprecatedObject.h"; sourceTree = SOURCE_ROOT; };
+		761AB68EBD3AD5E338A9EF3C /* TestInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestInterface.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestInterface.h"; sourceTree = SOURCE_ROOT; };
+		78153C2DDE558DA050C0C877 /* TestInterfaceObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestInterfaceObject.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestInterfaceObject.h"; sourceTree = SOURCE_ROOT; };
+		54AB0B10FE7FD71A3CF9DDB2 /* TestObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestObject.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestObject.h"; sourceTree = SOURCE_ROOT; };
+		7B5D5BD5ED0D9F4CC26C16A8 /* TestObjectSerializers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TestObjectSerializers.h"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestObjectSerializers.h"; sourceTree = SOURCE_ROOT; };
+		917E5705291FDC91905EEA9E /* UnrealHeaderTool.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealHeaderTool.Build.cs"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/UnrealHeaderTool.Build.cs"; sourceTree = SOURCE_ROOT; };
+		940AC694D607EE88F16DFF10 /* UnrealHeaderTool.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealHeaderTool.Target.cs"; path = "../../../../../../Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/UnrealHeaderTool.Target.cs"; sourceTree = SOURCE_ROOT; };
+		090D4E03B577FF38009EA4EC /* UnrealHeaderTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnrealHeaderTool; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		509B23C47FDD3E272C72B068 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0884A5BCBB0666DCC16A4FD /* BaseParser.cpp in Sources */,
+				40DBED250190BA6ECC82E840 /* ClassMaps.cpp in Sources */,
+				66DB81CCBD1D5F7E19E3B576 /* CodeGenerator.cpp in Sources */,
+				EC6DFE2DBBFE920CB348F9FF /* EngineAPI.cpp in Sources */,
+				F9B8B242217BB5E49279E7A2 /* Exceptions.cpp in Sources */,
+				8DF9DD57DE44A30ED0640D38 /* HeaderParser.cpp in Sources */,
+				1B747783954606B7C17150C8 /* HeaderProvider.cpp in Sources */,
+				F52715144E7B2B52DBDE9FBB /* IScriptGeneratorPluginInterface.cpp in Sources */,
+				D1C93DA0F252BCC173A6BDB0 /* Manifest.cpp in Sources */,
+				230B3A388F03C71833A8BFF4 /* ParserHelper.cpp in Sources */,
+				0B17A6E38A8A59593C401C33 /* PropertyTypes.cpp in Sources */,
+				6F9DDA1877F99A1E7FFAC2BA /* Scope.cpp in Sources */,
+				F1D1850BD59BD23716552FA9 /* SpecifierArrays.cpp in Sources */,
+				5063AC50B4B8299CD7BFF7F3 /* StringUtils.cpp in Sources */,
+				E830205E9B26064F3EA39807 /* UnrealHeaderToolMain.cpp in Sources */,
+				AC24F755BA17106F8D605B38 /* UnrealHeaderToolStats.cpp in Sources */,
+				0C8C3C68C8E3A81E606EB14D /* UnrealSourceFile.cpp in Sources */,
+				E0FD38D55872DF5781323919 /* UnrealTypeDefinitionInfo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	6D82E42B825855E8776E7421 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		9232A59C36A04AD31F59F6D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEEBE674F4673335402F52E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65554C6C0C0116EDF70A9E2E;
+			remoteInfo = "UnrealHeaderTool_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		96AF061D296829F13634EC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65554C6C0C0116EDF70A9E2E /* UnrealHeaderTool_Build */;
+			targetProxy = 9232A59C36A04AD31F59F6D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		C48CFAB05015ADFA91DCE049 = {
+			isa = PBXGroup;
+			children = (
+				AC94C951A219919BD271B6E3 /* Programs */,
+				AEA8F6F587A7BC8D51003715 /* Source */,
+				CEB900268501A0248BE058EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC94C951A219919BD271B6E3 = {
+			isa = PBXGroup;
+			children = (
+				58842F42FAD6444411A2447B /* UnrealHeaderTool */,
+			);
+			name = "Programs";
+			path = "/Users/Shared/Epic Games/UE_5.0/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		58842F42FAD6444411A2447B = {
+			isa = PBXGroup;
+			children = (
+				DF8B1DEDC553AAD48CD2155F /* Config */,
+			);
+			name = "UnrealHeaderTool";
+			path = "/Users/Shared/Epic Games/UE_5.0/Engine/Programs/UnrealHeaderTool";
+			sourceTree = "<absolute>";
+		};
+		DF8B1DEDC553AAD48CD2155F = {
+			isa = PBXGroup;
+			children = (
+				42E810EA783319D9F5BA282C /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Users/Shared/Epic Games/UE_5.0/Engine/Programs/UnrealHeaderTool/Config";
+			sourceTree = "<absolute>";
+		};
+		AEA8F6F587A7BC8D51003715 = {
+			isa = PBXGroup;
+			children = (
+				662357BC9F6C060A504D7217 /* Programs */,
+			);
+			name = "Source";
+			path = "/Users/Shared/Epic Games/UE_5.0/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		662357BC9F6C060A504D7217 = {
+			isa = PBXGroup;
+			children = (
+				FBA3D67EC6E256866ED09352 /* UnrealHeaderTool */,
+			);
+			name = "Programs";
+			path = "/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		FBA3D67EC6E256866ED09352 = {
+			isa = PBXGroup;
+			children = (
+				E04FBD6AE5B72ADE540787A1 /* Private */,
+				D03EC66FA9B1A7969005DB50 /* Public */,
+				AF9C25982394C3F41C3482D7 /* Resources */,
+				917E5705291FDC91905EEA9E /* UnrealHeaderTool.Build.cs */,
+				940AC694D607EE88F16DFF10 /* UnrealHeaderTool.Target.cs */,
+			);
+			name = "UnrealHeaderTool";
+			path = "/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool";
+			sourceTree = "<absolute>";
+		};
+		E04FBD6AE5B72ADE540787A1 = {
+			isa = PBXGroup;
+			children = (
+				FBEE341FCB0B0E6135DEF9E4 /* Specifiers */,
+				368BFB2DF5D5A900A4EEE13D /* BaseParser.cpp */,
+				1AE0AEAF2E09B1293AA61B14 /* BaseParser.h */,
+				698A96D6C9EFB87EF3E0ABA6 /* ClassMaps.cpp */,
+				4821AE6E210D730637EB78F1 /* ClassMaps.h */,
+				7586B032BE073875EF507A11 /* CodeGenerator.cpp */,
+				8CAF930B9EAA9E5ED7B1076A /* EngineAPI.cpp */,
+				A494604F0EE23061E1C7E5D4 /* EngineAPI.h */,
+				0CED10430AC5EB6B7A42F741 /* Exceptions.cpp */,
+				0ABB39F6A1A0DC409976FE98 /* Exceptions.h */,
+				0C741DEF4053EE58EA7D2991 /* GeneratedCodeVersion.h */,
+				79B69B8679FC3053F71F2D5B /* HeaderParser.cpp */,
+				58AA72F0201424B7B1FACA55 /* HeaderParser.h */,
+				881F2FFE196AAC8904AEA761 /* HeaderProvider.cpp */,
+				1CDBE8AE7D31A12A581DCB3B /* HeaderProvider.h */,
+				BDC726000E43730F42BF6D4C /* IScriptGeneratorPluginInterface.cpp */,
+				5356F0197C796BC68DB99695 /* Manifest.cpp */,
+				F3F836E3D314C79A1310E656 /* Manifest.h */,
+				F6228AE3C36596E57BC4B60C /* NativeClassExporter.h */,
+				19E76800C6662E201DD754E8 /* ParserHelper.cpp */,
+				3275B59640B8B8F3C650E2A0 /* ParserHelper.h */,
+				319C1D432A0DEA1D81FE645E /* PropertyTypes.cpp */,
+				C7AE5A7F3E983A2CB37759DD /* PropertyTypes.h */,
+				DAD2BD931BE82251F99B8129 /* Scope.cpp */,
+				3CBF4F6F50D31FD9C47A7D91 /* Scope.h */,
+				B607D3FADFDB62662231E3B2 /* StringUtils.cpp */,
+				9F1F7A6A7789594EF090F8C3 /* StringUtils.h */,
+				E3B0DC6D092B0AE82915153F /* UnrealHeaderTool.h */,
+				9BA9E6535AFF8664C578396B /* UnrealHeaderToolGlobals.h */,
+				12EF12E3624298BAF4D960BC /* UnrealHeaderToolMain.cpp */,
+				ECFE66CA0642498AF8C80689 /* UnrealHeaderToolStats.cpp */,
+				49854E013EC98D3B47E0C98C /* UnrealHeaderToolStats.h */,
+				37A7C77D6B20E51CD479C4A2 /* UnrealSourceFile.cpp */,
+				084A309DB8639B97E7F574F6 /* UnrealSourceFile.h */,
+				C4946DDE8925F0B2EDC29DC9 /* UnrealTypeDefinitionInfo.cpp */,
+				C75E4F50FFA194AB351AC81E /* UnrealTypeDefinitionInfo.h */,
+			);
+			name = "Private";
+			path = "/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private";
+			sourceTree = "<absolute>";
+		};
+		FBEE341FCB0B0E6135DEF9E4 = {
+			isa = PBXGroup;
+			children = (
+				4F1CAB6942C88D6208B162FF /* CheckedMetadataSpecifiers.def */,
+				739A3FC7E360DA0FA4341024 /* CheckedMetadataSpecifiers.h */,
+				CE670FD57E6A8F3C5BBEEC18 /* ClassMetadataSpecifiers.def */,
+				019A4152EE01A6047564D72E /* ClassMetadataSpecifiers.h */,
+				30E42E27AE89F11FF23BD928 /* EnumSpecifiers.def */,
+				5953CBD111C02CD85C1320C4 /* EnumSpecifiers.h */,
+				3C142A61664D5FDFAE800092 /* FunctionSpecifiers.def */,
+				487E3A4FC2D7AC987E0ACE28 /* FunctionSpecifiers.h */,
+				553DBB00F1A5323F04DA8387 /* InterfaceSpecifiers.def */,
+				41C237CA7D5FDEC634D09211 /* InterfaceSpecifiers.h */,
+				8A1CAF3FDB6FAEB721B47F41 /* SpecifierArrays.cpp */,
+				CAEB437C3EC9FF4274168521 /* StructSpecifiers.def */,
+				C0EC1706AB7B07E4089EF66E /* StructSpecifiers.h */,
+				DCDB501E440E43000E1275D4 /* VariableSpecifiers.def */,
+				4F8093EEB282F29E0676665C /* VariableSpecifiers.h */,
+			);
+			name = "Specifiers";
+			path = "/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers";
+			sourceTree = "<absolute>";
+		};
+		D03EC66FA9B1A7969005DB50 = {
+			isa = PBXGroup;
+			children = (
+				DDAC1A46592CB7814881B280 /* IScriptGeneratorPluginInterface.h */,
+			);
+			name = "Public";
+			path = "/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Public";
+			sourceTree = "<absolute>";
+		};
+		AF9C25982394C3F41C3482D7 = {
+			isa = PBXGroup;
+			children = (
+				AD37BA63C1321C0155D899A6 /* UHTDebugging */,
+				E0CD4C63612CD9792CBA6944 /* UHTDebugging.manifest */,
+			);
+			name = "Resources";
+			path = "/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Resources";
+			sourceTree = "<absolute>";
+		};
+		AD37BA63C1321C0155D899A6 = {
+			isa = PBXGroup;
+			children = (
+				E98FEB129381D6D1A2D89055 /* DocumentationObjects.h */,
+				D30C50C450A662D40DEA245B /* EnumOnlyHeader.h */,
+				20C2B73F920737DE201FF408 /* RigVMStructHeader.h */,
+				47EB2748B4E09131152B1ECF /* StructOnlyHeader.h */,
+				F4C46A259EAC95E70D5BDBC0 /* TestDeprecatedObject.h */,
+				761AB68EBD3AD5E338A9EF3C /* TestInterface.h */,
+				78153C2DDE558DA050C0C877 /* TestInterfaceObject.h */,
+				54AB0B10FE7FD71A3CF9DDB2 /* TestObject.h */,
+				7B5D5BD5ED0D9F4CC26C16A8 /* TestObjectSerializers.h */,
+			);
+			name = "UHTDebugging";
+			path = "/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging";
+			sourceTree = "<absolute>";
+		};
+		CEB900268501A0248BE058EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090D4E03B577FF38009EA4EC /* UnrealHeaderTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		65554C6C0C0116EDF70A9E2E /* UnrealHeaderTool_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 6F569913518BAA3DB92F141C /* Build configuration list for PBXLegacyTarget "UnrealHeaderTool_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/Epic Games/UE_5.0/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/Shared/Epic Games/UE_5.0";
+			dependencies = (
+			);
+			name = "UnrealHeaderTool_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealHeaderTool_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		D460683B9C6B7275D535F24D /* UnrealHeaderTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E439316114F2CFB49C5FCA /* Build configuration list for PBXNativeTarget "UnrealHeaderTool" */;
+			buildPhases = (
+				6D82E42B825855E8776E7421 /* Embed App Extensions */, 
+				AA79311E169AE8E3330E60B5 /* Shell Script */, 
+			);
+			dependencies = (
+				96AF061D296829F13634EC2F /* PBXTargetDependency */,
+			);
+			name = "UnrealHeaderTool";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealHeaderTool";
+			productReference = "090D4E03B577FF38009EA4EC";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		1A253BBE35B42EF48DB836E1 /* UnrealHeaderTool_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54DEC71E4308DEFF6E1F945E /* Build configuration list for PBXNativeTarget "UnrealHeaderTool_Index" */;
+			buildPhases = (
+				509B23C47FDD3E272C72B068 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealHeaderTool_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealHeaderTool_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEEBE674F4673335402F52E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					D460683B9C6B7275D535F24D = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C557B842DBAAA0B620B7BF73 /* Build configuration list for PBXProject "UnrealHeaderTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = C48CFAB05015ADFA91DCE049;
+			productRefGroup = CEB900268501A0248BE058EB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			D460683B9C6B7275D535F24D /* UnrealHeaderTool */,
+			65554C6C0C0116EDF70A9E2E /* UnrealHeaderTool_Build */,
+			1A253BBE35B42EF48DB836E1 /* UnrealHeaderTool_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		F1E97BB39EB81D5B0997B902 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/ThirdParty/mimalloc/include\"",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/TraceLog/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/Core/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/Json/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/Projects/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/Launch/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Public\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		F7B458C29A7D8EEECF75077D /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/ThirdParty/mimalloc/include\"",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/TraceLog/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/Core/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/Json/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/Projects/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/Launch/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Public\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		48DBAF664F1367EE5E6F9DE4 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/ThirdParty/mimalloc/include\"",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Private\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Core\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/TraceLog/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/Core/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/TraceLog\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/CoreUObject\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Json\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/Json/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/Projects\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/Projects/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealHeaderTool/Inc/UnrealHeaderTool\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Runtime/Launch/Public\"",
+					"\"/Users/Shared/Epic Games/UE_5.0/Engine/Source/Programs/UnrealHeaderTool/Public\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		1D75A2338B7074E227021905 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		A88AD03C625ADFED3A0956E8 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		EC8003C7308A5F39EFFBC7F0 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		AB2010928ACD355E222F3A99 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealHeaderTool";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		25B5910DEA07447C1E6F9BD5 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealHeaderTool";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		963B4CEE3FEF4E589FCAC50E /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealHeaderTool";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		DCA24ABE51191812C02F01A1 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		7472C4A4A14BC9679ACC16C6 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		57DE2D0A07AC7705D4DFB720 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UnrealHeaderTool-Mac-Shipping";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C557B842DBAAA0B620B7BF73 /* Build configuration list for PBXProject "UnrealHeaderTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E97BB39EB81D5B0997B902 /* "DebugGame" */,
+				F7B458C29A7D8EEECF75077D /* "Development" */,
+				48DBAF664F1367EE5E6F9DE4 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		6F569913518BAA3DB92F141C /* Build configuration list for PBXLegacyTarget "UnrealHeaderTool_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2010928ACD355E222F3A99 /* "DebugGame" */,
+				25B5910DEA07447C1E6F9BD5 /* "Development" */,
+				963B4CEE3FEF4E589FCAC50E /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		22E439316114F2CFB49C5FCA /* Build configuration list for PBXNativeTarget "UnrealHeaderTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D75A2338B7074E227021905 /* "DebugGame" */,
+				A88AD03C625ADFED3A0956E8 /* "Development" */,
+				EC8003C7308A5F39EFFBC7F0 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		54DEC71E4308DEFF6E1F945E /* Build configuration list for PBXNativeTarget "UnrealHeaderTool_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA24ABE51191812C02F01A1 /* "DebugGame" */,
+				7472C4A4A14BC9679ACC16C6 /* "Development" */,
+				57DE2D0A07AC7705D4DFB720 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEEBE674F4673335402F52E6 /* Project object */;
+}

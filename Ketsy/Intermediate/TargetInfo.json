@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Ketsy",
+			"Path": "/Users/michaelbahena/Documents/Unreal Projects/Ketsy/Source/Ketsy.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "KetsyEditor",
+			"Path": "/Users/michaelbahena/Documents/Unreal Projects/Ketsy/Source/KetsyEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
