@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/michaelbahena/Documents/Unreal Projects/Ketsy/Source/Ketsy/Ketsy.Build.cs",
+		"/Users/michaelbahena/Documents/Unreal Projects/Ketsy/Source/Ketsy.Target.cs",
+		"/Users/michaelbahena/Documents/Unreal Projects/Ketsy/Source/KetsyEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}
