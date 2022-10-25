@@ -2155,3 +2155,834 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.25-07.47.26:711][127]LogFileHelpers: No new changes to save!
 [2022.10.25-07.47.26:723][127]AssetCheck: New page: Asset Save: ArcadeLevel
 [2022.10.25-07.47.26:723][127]LogContentValidation: Display: Validating World /Game/Levels/ArcadeLevel.ArcadeLevel
+[2022.10.25-07.48.02:052][768]LogAssetEditorSubsystem: Opening Asset editor for PaperZDAnimSequence_Flipbook /Game/Core/Characters/AnimSequences/ASequence_KetsyIdle.ASequence_KetsyIdle
+[2022.10.25-07.48.02:072][768]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.25-07.48.02:112][768]LogContentBrowser: Verbose: The majority of assets in the view are of type: PaperZDAnimSequence_Flipbook
+[2022.10.25-07.48.02:116][768]LogViewport: Scene viewport resized to 1141x538, mode Windowed.
+[2022.10.25-07.48.07:198][365]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Assets/KetsyAssets/KetsyFlipBooks/FB_KetsyIdle.FB_KetsyIdle
+[2022.10.25-07.48.07:203][365]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.25-07.48.07:246][365]LogViewport: Scene viewport resized to 1526x765, mode Windowed.
+[2022.10.25-07.48.40:815][359]LogMaterial: Display: Missing cached shadermap for DefaultLitSpriteMaterial in PCD3D_ES3_1, Default, ES3_1 (DDC key hash: 2061E9F9DCE8782E821461CDDBA7B2526CEAFCE2), compiling. 
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: ================================================
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: Total job queries 5684, among them cache hits 7 (0.12%)
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: Tracking 5653 distinct input hashes that result in 1959 distinct outputs (34.65%)
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: RAM used: 5.45 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.33%
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: Shaders Compiled: 5677
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: Jobs assigned 5677, completed 5653 (99.58%)
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: Average time worker was idle: 115.19 s
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: Time job spent in pending queue: average 227.96 s, longest 510.74 s
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: Job execution time: average 11.00 s, max 22.39 s
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: Job life time (pending + execution): average 239.93 s, max 511.36
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 540.31 s
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: Jobs were issued in 675 batches (only local compilation was used), average 8.41 jobs/batch
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: Average processing rate: 10.46 jobs/sec
+[2022.10.25-07.48.41:714][454]LogShaderCompilers: Display: Effective parallelization: 11.70 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2022.10.25-07.48.41:715][454]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.25-07.48.41:715][454]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 2.96 sec, max 3.61 sec, min 2.32 sec)
+[2022.10.25-07.48.41:715][454]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    2 times, average 2.68 sec, max 2.84 sec, min 2.52 sec)
+[2022.10.25-07.48.41:715][454]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    2 times, average 2.66 sec, max 2.82 sec, min 2.50 sec)
+[2022.10.25-07.48.41:715][454]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 2.64 sec, max 3.14 sec, min 2.14 sec)
+[2022.10.25-07.48.41:715][454]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 2.53 sec, max 2.71 sec, min 2.35 sec)
+[2022.10.25-07.48.41:715][454]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.25-07.48.41:715][454]LogShaderCompilers: Display:                TMobileBasePassVSFNoLightMapPolicyHDRLinear64 - 7.30% of total time (compiled  333 times, average 1.39 sec, max 5.15 sec, min 0.46 sec)
+[2022.10.25-07.48.41:715][454]LogShaderCompilers: Display:                                             FDebugViewModeVS - 5.50% of total time (compiled  336 times, average 1.03 sec, max 3.57 sec, min 0.34 sec)
+[2022.10.25-07.48.41:715][454]LogShaderCompilers: Display:                                                  FVelocityVS - 4.35% of total time (compiled  209 times, average 1.32 sec, max 4.24 sec, min 0.46 sec)
+[2022.10.25-07.48.41:715][454]LogShaderCompilers: Display:               TMobileBasePassPSFNoLightMapPolicy0HDRLinear64 - 4.15% of total time (compiled  332 times, average 0.79 sec, max 2.96 sec, min 0.27 sec)
+[2022.10.25-07.48.41:715][454]LogShaderCompilers: Display: TMobileBasePassPSFMobileDirectionalLightCSMAndSHIndirectPolicyINT32_MAXHDRLinear64Skylight - 3.85% of total time (compiled  144 times, average 1.69 sec, max 4.27 sec, min 0.66 sec)
+[2022.10.25-07.48.41:715][454]LogShaderCompilers: Display: ================================================
+[2022.10.25-07.48.53:605][857]LogSavePackage: Moving output files for package: /Game/Assets/KetsyAssets/KetsyFlipBooks/FB_KetsyIdle
+[2022.10.25-07.48.53:605][857]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FB_KetsyIdleF34775114E556E47A13FDAAB023B87BD.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/KetsyAssets/KetsyFlipBooks/FB_KetsyIdle.uasset'
+[2022.10.25-07.48.53:616][857]AssetCheck: New page: Asset Save: FB_KetsyIdle
+[2022.10.25-07.48.53:616][857]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/KetsyAssets/KetsyFlipBooks/FB_KetsyIdle.FB_KetsyIdle
+[2022.10.25-07.49.27:606][797]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2022.10.25-07.49.27:606][797]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2022.10.25-07.49.29:258][969]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2022.10.25-07.49.29:258][969]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2022.10.25-07.49.53:946][816]BlueprintLog: New page: Compile BP_Ketsy
+[2022.10.25-07.49.54:007][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.10.25-07.49.57:595][204]Cmd: DELETE
+[2022.10.25-07.49.57:595][204]Cmd: ACTOR DELETE
+[2022.10.25-07.49.57:597][204]LogEditorActor: Cannot delete component SpotLightComponent /Game/Levels/ArcadeLevel.ArcadeLevel:PersistentLevel.SpotLight_1.LightComponent0: Can't delete non-instanced components or the scene root.
+[2022.10.25-07.50.03:575][905]Cmd: DELETE
+[2022.10.25-07.50.03:575][905]Cmd: ACTOR DELETE
+[2022.10.25-07.50.03:579][905]LogEditorActor: Deleted Actor: SpotLight
+[2022.10.25-07.50.03:609][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.10.25-07.50.03:613][905]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2022.10.25-07.50.05:731][156]LogWorld: Changing Feature Level (Enum) from 3 to 1
+[2022.10.25-07.50.05:780][156]LogWorld: Changing Feature Level (Enum) from 3 to 1
+[2022.10.25-07.50.05:820][156]LogDeviceProfileManager: SetPreviewDeviceProfile preview to IOS
+[2022.10.25-07.50.07:803][381]LogWorld: Changing Feature Level (Enum) from 1 to 3
+[2022.10.25-07.50.07:856][381]LogWorld: Changing Feature Level (Enum) from 1 to 3
+[2022.10.25-07.50.07:896][381]LogDeviceProfileManager: Restoring Preview DP 
+[2022.10.25-07.50.07:896][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2022.10.25-07.50.07:896][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DynamicGlobalIlluminationMethod:1]]
+[2022.10.25-07.50.07:896][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ReflectionMethod:1]]
+[2022.10.25-07.50.07:896][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2022.10.25-07.50.07:896][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Lumen.HardwareRayTracing.LightingMode:0]]
+[2022.10.25-07.50.07:896][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Lumen.TraceMeshSDFs:1]]
+[2022.10.25-07.50.07:898][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.Enable:1]]
+[2022.10.25-07.50.07:898][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RayTracing.Shadows:0]]
+[2022.10.25-07.50.07:898][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RayTracing.Skylight:0]]
+[2022.10.25-07.50.07:898][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SeparateTranslucency:0]]
+[2022.10.25-07.50.07:898][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MSAACount:4]]
+[2022.10.25-07.50.07:898][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EarlyZPass:3]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[vr.RoundRobinOcclusion:0]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Simulation:1]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Strands:1]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Binding:1]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.FXAA.Quality:4]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TemporalAA.Quality:2]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.R11G11B10:1]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.ScreenPercentage:100]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.UpdateQuality:3]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.ShadingRejection.SpatialFilter:2]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.Velocity.Extrapolation:1]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.Velocity.HoleFill:1]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightFunctionQuality:1]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ShadowQuality:5]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.MaxCascades:10]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.MaxResolution:2048]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.MaxCSMResolution:2048]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.RadiusThreshold:0.01]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.DistanceScale:1]]
+[2022.10.25-07.50.07:902][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.TransitionScale:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.PreShadowResolutionFactor:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DistanceFieldShadowing:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DistanceFieldAO:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.VolumetricFog:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightMaxDrawDistanceScale:1.0]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.CapsuleShadows:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.ResolutionLodBiasLocal:0]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkeletalMeshLODBias:0]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ViewDistanceScale:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.NeverOcclusionTestDistance:0.0]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MotionBlurQuality:4]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MotionBlur.HalfResGather:0]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionMaxQuality:100]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionLevels:-1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionRadiusScale:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DepthOfFieldQuality:2]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RenderTargetPoolMin:400]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LensFlareQuality:2]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SceneColorFringeQuality:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EyeAdaptationQuality:2]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.BloomQuality:5]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Bloom.ScreenPercentage:70.711]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.FastBlurThreshold:100]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Upscale.Quality:3]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Tonemapper.GrainQuantization:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightShaftQuality:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Filter.SizeScale:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Tonemapper.Quality:5]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.AccumulatorQuality:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.PostfilterMethod:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.EnableBokehSettings:0]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.RingCount:4]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.ForegroundCompositing:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.BackgroundCompositing:2]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.EnableBokehSettings:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.MaxSpriteRatio:0.1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Recombine.Quality:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Recombine.EnableBokehSettings:0]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.TemporalAAQuality:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Mobile.AmbientOcclusionQuality:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Mobile.PixelProjectedReflectionQuality:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MipBias:0]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.Boost:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MaxAnisotropy:8]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.VT.MaxAnisotropy:8]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.PoolSize:1000]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TranslucencyLightingVolumeDim:64]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RefractionQuality:2]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSR.Quality:3]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSR.HalfResSceneColor:0]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SceneColorFormat:4]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DetailMode:2]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TranslucencyVolumeBlur:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MaterialQualityLevel:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.Scale:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.SampleSet:2]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.Quality:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.HalfRes:0]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSGI.Quality:3]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EmitterSpawnRateScale:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ParticleLightQuality:2]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.10.25-07.50.07:903][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4]]
+[2022.10.25-07.50.07:904][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128]]
+[2022.10.25-07.50.07:904][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.SampleCountMin:4]]
+[2022.10.25-07.50.07:904][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.SampleCountMax:128]]
+[2022.10.25-07.50.07:904][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.10.25-07.50.07:904][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10]]
+[2022.10.25-07.50.07:904][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15]]
+[2022.10.25-07.50.07:904][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.10.25-07.50.07:904][381]LogDeviceProfileManager: Popping Device Profile CVar: [[fx.Niagara.QualityLevel:3]]
+[2022.10.25-07.50.07:904][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.Width:192]]
+[2022.10.25-07.50.07:904][381]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.Height:104]]
+[2022.10.25-07.50.07:904][381]LogDeviceProfileManager: Popping Device Profile CVar: [[foliage.DensityScale:1]]
+[2022.10.25-07.50.07:904][381]LogDeviceProfileManager: Popping Device Profile CVar: [[grass.DensityScale:1.0]]
+[2022.10.25-07.50.07:904][381]LogDeviceProfileManager: Popping Device Profile CVar: [[grass.CullDistanceScale:1.0]]
+[2022.10.25-07.50.08:688][462]LogWorld: Changing Feature Level (Enum) from 3 to 1
+[2022.10.25-07.50.08:727][462]LogWorld: Changing Feature Level (Enum) from 3 to 1
+[2022.10.25-07.50.08:764][462]LogDeviceProfileManager: SetPreviewDeviceProfile preview to IOS
+[2022.10.25-07.50.09:639][565]LogWorld: Changing Feature Level (Enum) from 1 to 3
+[2022.10.25-07.50.09:691][565]LogWorld: Changing Feature Level (Enum) from 1 to 3
+[2022.10.25-07.50.09:730][565]LogDeviceProfileManager: Restoring Preview DP 
+[2022.10.25-07.50.09:730][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2022.10.25-07.50.09:730][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DynamicGlobalIlluminationMethod:1]]
+[2022.10.25-07.50.09:730][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ReflectionMethod:1]]
+[2022.10.25-07.50.09:731][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2022.10.25-07.50.09:731][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Lumen.HardwareRayTracing.LightingMode:0]]
+[2022.10.25-07.50.09:731][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Lumen.TraceMeshSDFs:1]]
+[2022.10.25-07.50.09:732][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.Enable:1]]
+[2022.10.25-07.50.09:732][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RayTracing.Shadows:0]]
+[2022.10.25-07.50.09:732][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RayTracing.Skylight:0]]
+[2022.10.25-07.50.09:732][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SeparateTranslucency:0]]
+[2022.10.25-07.50.09:732][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MSAACount:4]]
+[2022.10.25-07.50.09:732][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EarlyZPass:3]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[vr.RoundRobinOcclusion:0]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Simulation:1]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Strands:1]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Binding:1]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.FXAA.Quality:4]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TemporalAA.Quality:2]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.R11G11B10:1]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.ScreenPercentage:100]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.UpdateQuality:3]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.ShadingRejection.SpatialFilter:2]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.Velocity.Extrapolation:1]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.Velocity.HoleFill:1]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightFunctionQuality:1]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ShadowQuality:5]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.MaxCascades:10]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.MaxResolution:2048]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.MaxCSMResolution:2048]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.RadiusThreshold:0.01]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.DistanceScale:1]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.TransitionScale:1]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.PreShadowResolutionFactor:1]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DistanceFieldShadowing:1]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DistanceFieldAO:1]]
+[2022.10.25-07.50.09:736][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.VolumetricFog:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightMaxDrawDistanceScale:1.0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.CapsuleShadows:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.ResolutionLodBiasLocal:0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkeletalMeshLODBias:0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ViewDistanceScale:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.NeverOcclusionTestDistance:0.0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MotionBlurQuality:4]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MotionBlur.HalfResGather:0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionMaxQuality:100]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionLevels:-1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionRadiusScale:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DepthOfFieldQuality:2]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RenderTargetPoolMin:400]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LensFlareQuality:2]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SceneColorFringeQuality:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EyeAdaptationQuality:2]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.BloomQuality:5]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Bloom.ScreenPercentage:70.711]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.FastBlurThreshold:100]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Upscale.Quality:3]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Tonemapper.GrainQuantization:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightShaftQuality:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Filter.SizeScale:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Tonemapper.Quality:5]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.AccumulatorQuality:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.PostfilterMethod:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.EnableBokehSettings:0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.RingCount:4]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.ForegroundCompositing:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.BackgroundCompositing:2]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.EnableBokehSettings:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.MaxSpriteRatio:0.1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Recombine.Quality:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Recombine.EnableBokehSettings:0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.TemporalAAQuality:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Mobile.AmbientOcclusionQuality:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Mobile.PixelProjectedReflectionQuality:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MipBias:0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.Boost:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MaxAnisotropy:8]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.VT.MaxAnisotropy:8]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.PoolSize:1000]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TranslucencyLightingVolumeDim:64]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RefractionQuality:2]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSR.Quality:3]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSR.HalfResSceneColor:0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SceneColorFormat:4]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DetailMode:2]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TranslucencyVolumeBlur:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MaterialQualityLevel:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.Scale:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.SampleSet:2]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.Quality:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.HalfRes:0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSGI.Quality:3]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EmitterSpawnRateScale:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ParticleLightQuality:2]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.SampleCountMin:4]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.SampleCountMax:128]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15]]
+[2022.10.25-07.50.09:737][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.10.25-07.50.09:738][565]LogDeviceProfileManager: Popping Device Profile CVar: [[fx.Niagara.QualityLevel:3]]
+[2022.10.25-07.50.09:738][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.Width:192]]
+[2022.10.25-07.50.09:738][565]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.Height:104]]
+[2022.10.25-07.50.09:738][565]LogDeviceProfileManager: Popping Device Profile CVar: [[foliage.DensityScale:1]]
+[2022.10.25-07.50.09:738][565]LogDeviceProfileManager: Popping Device Profile CVar: [[grass.DensityScale:1.0]]
+[2022.10.25-07.50.09:738][565]LogDeviceProfileManager: Popping Device Profile CVar: [[grass.CullDistanceScale:1.0]]
+[2022.10.25-07.50.10:652][668]LogWorld: Changing Feature Level (Enum) from 3 to 1
+[2022.10.25-07.50.10:694][668]LogWorld: Changing Feature Level (Enum) from 3 to 1
+[2022.10.25-07.50.10:729][668]LogDeviceProfileManager: SetPreviewDeviceProfile preview to IOS
+[2022.10.25-07.50.11:997][818]LogWorld: Changing Feature Level (Enum) from 1 to 3
+[2022.10.25-07.50.12:047][818]LogWorld: Changing Feature Level (Enum) from 1 to 3
+[2022.10.25-07.50.12:087][818]LogDeviceProfileManager: Restoring Preview DP 
+[2022.10.25-07.50.12:087][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2022.10.25-07.50.12:087][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DynamicGlobalIlluminationMethod:1]]
+[2022.10.25-07.50.12:087][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ReflectionMethod:1]]
+[2022.10.25-07.50.12:087][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2022.10.25-07.50.12:087][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Lumen.HardwareRayTracing.LightingMode:0]]
+[2022.10.25-07.50.12:087][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Lumen.TraceMeshSDFs:1]]
+[2022.10.25-07.50.12:089][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.Enable:1]]
+[2022.10.25-07.50.12:089][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RayTracing.Shadows:0]]
+[2022.10.25-07.50.12:089][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RayTracing.Skylight:0]]
+[2022.10.25-07.50.12:089][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SeparateTranslucency:0]]
+[2022.10.25-07.50.12:090][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MSAACount:4]]
+[2022.10.25-07.50.12:090][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EarlyZPass:3]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[vr.RoundRobinOcclusion:0]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Simulation:1]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Strands:1]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Binding:1]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.FXAA.Quality:4]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TemporalAA.Quality:2]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.R11G11B10:1]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.ScreenPercentage:100]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.UpdateQuality:3]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.ShadingRejection.SpatialFilter:2]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.Velocity.Extrapolation:1]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.Velocity.HoleFill:1]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightFunctionQuality:1]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ShadowQuality:5]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.MaxCascades:10]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.MaxResolution:2048]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.MaxCSMResolution:2048]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.RadiusThreshold:0.01]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.DistanceScale:1]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.TransitionScale:1]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.PreShadowResolutionFactor:1]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DistanceFieldShadowing:1]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DistanceFieldAO:1]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.VolumetricFog:1]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightMaxDrawDistanceScale:1.0]]
+[2022.10.25-07.50.12:094][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.CapsuleShadows:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.ResolutionLodBiasLocal:0]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkeletalMeshLODBias:0]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ViewDistanceScale:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.NeverOcclusionTestDistance:0.0]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MotionBlurQuality:4]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MotionBlur.HalfResGather:0]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionMaxQuality:100]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionLevels:-1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionRadiusScale:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DepthOfFieldQuality:2]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RenderTargetPoolMin:400]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LensFlareQuality:2]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SceneColorFringeQuality:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EyeAdaptationQuality:2]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.BloomQuality:5]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Bloom.ScreenPercentage:70.711]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.FastBlurThreshold:100]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Upscale.Quality:3]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Tonemapper.GrainQuantization:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightShaftQuality:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Filter.SizeScale:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Tonemapper.Quality:5]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.AccumulatorQuality:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.PostfilterMethod:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.EnableBokehSettings:0]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.RingCount:4]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.ForegroundCompositing:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.BackgroundCompositing:2]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.EnableBokehSettings:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.MaxSpriteRatio:0.1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Recombine.Quality:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Recombine.EnableBokehSettings:0]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.TemporalAAQuality:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Mobile.AmbientOcclusionQuality:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Mobile.PixelProjectedReflectionQuality:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MipBias:0]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.Boost:1]]
+[2022.10.25-07.50.12:095][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MaxAnisotropy:8]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.VT.MaxAnisotropy:8]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.PoolSize:1000]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TranslucencyLightingVolumeDim:64]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RefractionQuality:2]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSR.Quality:3]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSR.HalfResSceneColor:0]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SceneColorFormat:4]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DetailMode:2]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TranslucencyVolumeBlur:1]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MaterialQualityLevel:1]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.Scale:1]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.SampleSet:2]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.Quality:1]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.HalfRes:0]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSGI.Quality:3]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EmitterSpawnRateScale:1]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ParticleLightQuality:2]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.SampleCountMin:4]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.SampleCountMax:128]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[fx.Niagara.QualityLevel:3]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.Width:192]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.Height:104]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[foliage.DensityScale:1]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[grass.DensityScale:1.0]]
+[2022.10.25-07.50.12:096][818]LogDeviceProfileManager: Popping Device Profile CVar: [[grass.CullDistanceScale:1.0]]
+[2022.10.25-07.50.27:742][665]LogWorld: Changing Feature Level (Enum) from 3 to 1
+[2022.10.25-07.50.27:787][665]LogWorld: Changing Feature Level (Enum) from 3 to 1
+[2022.10.25-07.50.27:825][665]LogDeviceProfileManager: SetPreviewDeviceProfile preview to IOS
+[2022.10.25-07.50.28:717][770]LogWorld: Changing Feature Level (Enum) from 1 to 3
+[2022.10.25-07.50.28:761][770]LogWorld: Changing Feature Level (Enum) from 1 to 3
+[2022.10.25-07.50.28:799][770]LogDeviceProfileManager: Restoring Preview DP 
+[2022.10.25-07.50.28:799][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2022.10.25-07.50.28:799][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DynamicGlobalIlluminationMethod:1]]
+[2022.10.25-07.50.28:799][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ReflectionMethod:1]]
+[2022.10.25-07.50.28:799][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2022.10.25-07.50.28:799][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Lumen.HardwareRayTracing.LightingMode:0]]
+[2022.10.25-07.50.28:799][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Lumen.TraceMeshSDFs:1]]
+[2022.10.25-07.50.28:801][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.Enable:1]]
+[2022.10.25-07.50.28:801][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RayTracing.Shadows:0]]
+[2022.10.25-07.50.28:801][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RayTracing.Skylight:0]]
+[2022.10.25-07.50.28:801][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SeparateTranslucency:0]]
+[2022.10.25-07.50.28:801][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MSAACount:4]]
+[2022.10.25-07.50.28:801][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EarlyZPass:3]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[vr.RoundRobinOcclusion:0]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Simulation:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Strands:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Binding:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.FXAA.Quality:4]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TemporalAA.Quality:2]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.R11G11B10:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.ScreenPercentage:100]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.UpdateQuality:3]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.ShadingRejection.SpatialFilter:2]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.Velocity.Extrapolation:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.Velocity.HoleFill:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightFunctionQuality:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ShadowQuality:5]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.MaxCascades:10]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.MaxResolution:2048]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.MaxCSMResolution:2048]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.RadiusThreshold:0.01]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.DistanceScale:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.TransitionScale:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.PreShadowResolutionFactor:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DistanceFieldShadowing:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DistanceFieldAO:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.VolumetricFog:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightMaxDrawDistanceScale:1.0]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.CapsuleShadows:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.ResolutionLodBiasLocal:0]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkeletalMeshLODBias:0]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ViewDistanceScale:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.NeverOcclusionTestDistance:0.0]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MotionBlurQuality:4]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MotionBlur.HalfResGather:0]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionMaxQuality:100]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionLevels:-1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionRadiusScale:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DepthOfFieldQuality:2]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RenderTargetPoolMin:400]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LensFlareQuality:2]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SceneColorFringeQuality:1]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EyeAdaptationQuality:2]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.BloomQuality:5]]
+[2022.10.25-07.50.28:805][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Bloom.ScreenPercentage:70.711]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.FastBlurThreshold:100]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Upscale.Quality:3]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Tonemapper.GrainQuantization:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightShaftQuality:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Filter.SizeScale:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Tonemapper.Quality:5]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.AccumulatorQuality:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.PostfilterMethod:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.EnableBokehSettings:0]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.RingCount:4]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.ForegroundCompositing:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.BackgroundCompositing:2]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.EnableBokehSettings:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.MaxSpriteRatio:0.1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Recombine.Quality:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Recombine.EnableBokehSettings:0]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.TemporalAAQuality:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Mobile.AmbientOcclusionQuality:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Mobile.PixelProjectedReflectionQuality:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MipBias:0]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.Boost:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MaxAnisotropy:8]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.VT.MaxAnisotropy:8]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.PoolSize:1000]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TranslucencyLightingVolumeDim:64]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RefractionQuality:2]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSR.Quality:3]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSR.HalfResSceneColor:0]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SceneColorFormat:4]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DetailMode:2]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TranslucencyVolumeBlur:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MaterialQualityLevel:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.Scale:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.SampleSet:2]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.Quality:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.HalfRes:0]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSGI.Quality:3]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EmitterSpawnRateScale:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ParticleLightQuality:2]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.SampleCountMin:4]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.SampleCountMax:128]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[fx.Niagara.QualityLevel:3]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.Width:192]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.Height:104]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[foliage.DensityScale:1]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[grass.DensityScale:1.0]]
+[2022.10.25-07.50.28:806][770]LogDeviceProfileManager: Popping Device Profile CVar: [[grass.CullDistanceScale:1.0]]
+[2022.10.25-07.50.29:503][847]LogWorld: Changing Feature Level (Enum) from 3 to 1
+[2022.10.25-07.50.29:547][847]LogWorld: Changing Feature Level (Enum) from 3 to 1
+[2022.10.25-07.50.29:583][847]LogDeviceProfileManager: SetPreviewDeviceProfile preview to IOS
+[2022.10.25-07.50.31:968][131]LogWorld: Changing Feature Level (Enum) from 1 to 3
+[2022.10.25-07.50.32:016][131]LogWorld: Changing Feature Level (Enum) from 1 to 3
+[2022.10.25-07.50.32:056][131]LogDeviceProfileManager: Restoring Preview DP 
+[2022.10.25-07.50.32:056][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2022.10.25-07.50.32:056][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DynamicGlobalIlluminationMethod:1]]
+[2022.10.25-07.50.32:056][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ReflectionMethod:1]]
+[2022.10.25-07.50.32:056][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2022.10.25-07.50.32:056][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Lumen.HardwareRayTracing.LightingMode:0]]
+[2022.10.25-07.50.32:056][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Lumen.TraceMeshSDFs:1]]
+[2022.10.25-07.50.32:058][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.Enable:1]]
+[2022.10.25-07.50.32:058][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RayTracing.Shadows:0]]
+[2022.10.25-07.50.32:058][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RayTracing.Skylight:0]]
+[2022.10.25-07.50.32:058][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SeparateTranslucency:0]]
+[2022.10.25-07.50.32:058][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MSAACount:4]]
+[2022.10.25-07.50.32:058][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EarlyZPass:3]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[vr.RoundRobinOcclusion:0]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Simulation:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Strands:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.HairStrands.Binding:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.FXAA.Quality:4]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TemporalAA.Quality:2]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.R11G11B10:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.ScreenPercentage:100]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.History.UpdateQuality:3]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.ShadingRejection.SpatialFilter:2]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.Velocity.Extrapolation:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.Velocity.HoleFill:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightFunctionQuality:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ShadowQuality:5]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.MaxCascades:10]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.MaxResolution:2048]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.MaxCSMResolution:2048]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.RadiusThreshold:0.01]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.DistanceScale:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.CSM.TransitionScale:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.PreShadowResolutionFactor:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DistanceFieldShadowing:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DistanceFieldAO:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.VolumetricFog:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightMaxDrawDistanceScale:1.0]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.CapsuleShadows:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.ResolutionLodBiasLocal:0]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkeletalMeshLODBias:0]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ViewDistanceScale:1]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.NeverOcclusionTestDistance:0.0]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MotionBlurQuality:4]]
+[2022.10.25-07.50.32:062][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MotionBlur.HalfResGather:0]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionMaxQuality:100]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionLevels:-1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.AmbientOcclusionRadiusScale:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DepthOfFieldQuality:2]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RenderTargetPoolMin:400]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LensFlareQuality:2]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SceneColorFringeQuality:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EyeAdaptationQuality:2]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.BloomQuality:5]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Bloom.ScreenPercentage:70.711]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.FastBlurThreshold:100]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Upscale.Quality:3]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Tonemapper.GrainQuantization:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.LightShaftQuality:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Filter.SizeScale:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Tonemapper.Quality:5]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.AccumulatorQuality:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.PostfilterMethod:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.EnableBokehSettings:0]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Gather.RingCount:4]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.ForegroundCompositing:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.BackgroundCompositing:2]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.EnableBokehSettings:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Scatter.MaxSpriteRatio:0.1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Recombine.Quality:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Recombine.EnableBokehSettings:0]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.TemporalAAQuality:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Mobile.AmbientOcclusionQuality:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Mobile.PixelProjectedReflectionQuality:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MipBias:0]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.Boost:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MaxAnisotropy:8]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.VT.MaxAnisotropy:8]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.PoolSize:1000]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TranslucencyLightingVolumeDim:64]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.RefractionQuality:2]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSR.Quality:3]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSR.HalfResSceneColor:0]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SceneColorFormat:4]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.DetailMode:2]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.TranslucencyVolumeBlur:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.MaterialQualityLevel:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.Scale:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.SampleSet:2]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.Quality:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSS.HalfRes:0]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SSGI.Quality:3]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.EmitterSpawnRateScale:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.ParticleLightQuality:2]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.SampleCountMin:4]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.SampleCountMax:128]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[fx.Niagara.QualityLevel:3]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.Width:192]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[r.SkyAtmosphere.FastSkyLUT.Height:104]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[foliage.DensityScale:1]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[grass.DensityScale:1.0]]
+[2022.10.25-07.50.32:063][131]LogDeviceProfileManager: Popping Device Profile CVar: [[grass.CullDistanceScale:1.0]]
+[2022.10.25-07.50.42:501][349]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.10.25-07.50.42:527][349]LogSavePackage: Moving output files for package: /Game/Levels/ArcadeLevel
+[2022.10.25-07.50.42:528][349]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/ArcadeLevel1E6DF1C148FD2CC4B55511A36D876633.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Levels/ArcadeLevel.umap'
+[2022.10.25-07.50.42:536][349]LogFileHelpers: No new changes to save!
+[2022.10.25-07.50.42:547][349]AssetCheck: New page: Asset Save: ArcadeLevel
+[2022.10.25-07.50.42:547][349]LogContentValidation: Display: Validating World /Game/Levels/ArcadeLevel.ArcadeLevel
+[2022.10.25-07.51.05:858][ 56]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkBackward.FP_KetsyWalkBackward
+[2022.10.25-07.51.05:858][ 56]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.25-07.51.05:901][ 56]LogViewport: Scene viewport resized to 1526x765, mode Windowed.
+[2022.10.25-07.51.39:756][ 80]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkForward.FP_KetsyWalkForward
+[2022.10.25-07.51.39:757][ 80]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.25-07.51.39:803][ 80]LogViewport: Scene viewport resized to 1526x765, mode Windowed.
+[2022.10.25-07.51.42:457][386]LogAssetEditorSubsystem: Opening Asset editor for Material /Paper2D/DefaultLitSpriteMaterial.DefaultLitSpriteMaterial
+[2022.10.25-07.51.42:460][386]LogMaterial: Display: Missing cached shadermap for Preview:DefaultLitSpriteMaterial in PCD3D_ES3_1, Default, ES3_1 (DDC key hash: C5A4922D8128676869B6317FC8BC7B885E2F94D4), compiling. 
+[2022.10.25-07.51.42:495][386]LogMaterial: Display: Missing cached shadermap for Preview:DefaultLitSpriteMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: C9C14B84AE3FDFABAF97C812E90407ACA5F05B54), compiling. 
+[2022.10.25-07.51.42:556][386]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: ================================================
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: Total job queries 5734, among them cache hits 32 (0.56%)
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: Tracking 5677 distinct input hashes that result in 1976 distinct outputs (34.81%)
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: RAM used: 5.49 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.33%
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: Shaders Compiled: 5727
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: Jobs assigned 5677, completed 5677 (100.00%)
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: Average time worker was idle: 115.19 s
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: Time job spent in pending queue: average 227.96 s, longest 510.74 s
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: Job execution time: average 10.96 s, max 22.39 s
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: Job life time (pending + execution): average 238.92 s, max 511.36
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 541.32 s
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: Jobs were issued in 675 batches (only local compilation was used), average 8.41 jobs/batch
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: Average processing rate: 10.49 jobs/sec
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: Effective parallelization: 11.69 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 2.96 sec, max 3.61 sec, min 2.32 sec)
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    2 times, average 2.68 sec, max 2.84 sec, min 2.52 sec)
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    2 times, average 2.66 sec, max 2.82 sec, min 2.50 sec)
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 2.64 sec, max 3.14 sec, min 2.14 sec)
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 2.53 sec, max 2.71 sec, min 2.35 sec)
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display:                TMobileBasePassVSFNoLightMapPolicyHDRLinear64 - 7.29% of total time (compiled  333 times, average 1.39 sec, max 5.15 sec, min 0.46 sec)
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display:                                             FDebugViewModeVS - 5.49% of total time (compiled  337 times, average 1.03 sec, max 3.57 sec, min 0.32 sec)
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display:                                                  FVelocityVS - 4.35% of total time (compiled  210 times, average 1.31 sec, max 4.24 sec, min 0.39 sec)
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display:               TMobileBasePassPSFNoLightMapPolicy0HDRLinear64 - 4.16% of total time (compiled  333 times, average 0.79 sec, max 2.96 sec, min 0.27 sec)
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: TMobileBasePassPSFMobileDirectionalLightCSMAndSHIndirectPolicyINT32_MAXHDRLinear64Skylight - 3.85% of total time (compiled  145 times, average 1.68 sec, max 4.27 sec, min 0.66 sec)
+[2022.10.25-07.51.42:559][386]LogShaderCompilers: Display: ================================================
+[2022.10.25-07.51.42:588][386]LogMaterial: Display: Missing cached shadermap for M_SkyBox in PCD3D_ES3_1, Default, ES3_1 (DDC key hash: 918994AAE6034013C5B53779BB87242612C00147), compiling. 
+[2022.10.25-07.51.42:679][386]LogMaterial: Display: Missing cached shadermap for Preview:DefaultLitSpriteMaterial in PCD3D_ES3_1, Default, ES3_1 (DDC key hash: 88CE504D8BFD8BEA0059265709ED3CEC1CA1F0DE), compiling. 
+[2022.10.25-07.51.42:683][386]LogMaterial: Display: Missing cached shadermap for Preview:DefaultLitSpriteMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: AD2A059D7A63792B1A2F2EA9A0469C4C3BA698FE), compiling. 
+[2022.10.25-07.51.42:686][386]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionSpriteTextureSampler_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 1522386F372A40194EAD84358755E638544361C1), compiling. 
+[2022.10.25-07.51.42:688][386]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionSpriteTextureSampler_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 3809500EC61BD915C6F2DAFD941A5103A4F23553), compiling. 
+[2022.10.25-07.51.42:721][386]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.25-07.51.42:721][386]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.25-07.51.42:721][386]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.25-07.51.42:721][386]MaterialEditorStats: Shader Count: 0
+[2022.10.25-07.51.42:727][386]LogViewport: Scene viewport resized to 726x449, mode Windowed.
+[2022.10.25-07.51.43:614][439]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.25-07.51.43:614][439]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.25-07.51.43:614][439]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.25-07.51.43:614][439]MaterialEditorStats: Shader Count: 3
+[2022.10.25-07.51.44:234][479]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.25-07.51.44:234][479]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.25-07.51.44:234][479]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.25-07.51.44:234][479]MaterialEditorStats: Shader Count: 4
+[2022.10.25-07.51.44:897][547]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.10.25-07.51.44:897][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-07.51.49:038][ 39]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkLeft.FP_KetsyWalkLeft
+[2022.10.25-07.51.49:039][ 39]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.25-07.51.49:083][ 39]LogViewport: Scene viewport resized to 1526x765, mode Windowed.
+[2022.10.25-07.51.56:591][923]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkRight.FP_KetsyWalkRight
+[2022.10.25-07.51.56:591][923]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.25-07.51.56:636][923]LogViewport: Scene viewport resized to 1526x765, mode Windowed.
+[2022.10.25-07.52.01:828][530]LogSavePackage: Moving output files for package: /Game/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkRight
+[2022.10.25-07.52.01:828][530]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkRight4A5F4DC648FE10C3E3C4CBA65A1D5120.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkRight.uasset'
+[2022.10.25-07.52.01:838][530]AssetCheck: New page: Asset Save: FP_KetsyWalkRight
+[2022.10.25-07.52.01:838][530]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkRight.FP_KetsyWalkRight
+[2022.10.25-07.52.04:530][849]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.10.25-07.52.05:495][849]LogSlate: Window 'Save Content' being destroyed
+[2022.10.25-07.52.05:527][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Characters/BP_Ketsy" FILE="C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Core/Characters/BP_Ketsy.uasset" SILENT=true
+[2022.10.25-07.52.05:530][849]LogSavePackage: Moving output files for package: /Game/Core/Characters/BP_Ketsy
+[2022.10.25-07.52.05:531][849]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/BP_KetsyD1DDF0A3424CF3713BD4B590F7E6048B.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Core/Characters/BP_Ketsy.uasset'
+[2022.10.25-07.52.05:534][849]LogSavePackage: Moving output files for package: /Game/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkBackward
+[2022.10.25-07.52.05:534][849]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkBackwardC10D57FD402F5DAD732B08A4146FAE1D.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkBackward.uasset'
+[2022.10.25-07.52.05:537][849]LogSavePackage: Moving output files for package: /Game/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkForward
+[2022.10.25-07.52.05:537][849]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkForwardBB356B8D42E951AC9240D3865839FE19.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkForward.uasset'
+[2022.10.25-07.52.05:540][849]LogSavePackage: Moving output files for package: /Game/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkLeft
+[2022.10.25-07.52.05:540][849]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkLeftA54315624726DDC416E3B68320EAE3EB.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkLeft.uasset'
+[2022.10.25-07.52.05:551][849]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.25-07.52.05:551][849]LogContentValidation: Display: Validating Blueprint /Game/Core/Characters/BP_Ketsy.BP_Ketsy
+[2022.10.25-07.52.05:551][849]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkForward.FP_KetsyWalkForward
+[2022.10.25-07.52.05:551][849]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkLeft.FP_KetsyWalkLeft
+[2022.10.25-07.52.05:551][849]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/KetsyAssets/KetsyFlipBooks/FP_KetsyWalkBackward.FP_KetsyWalkBackward
+[2022.10.25-07.52.06:877][  3]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.10.25-07.52.06:877][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-07.52.08:060][142]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.10.25-07.52.08:060][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-07.52.08:940][245]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.10.25-07.52.08:940][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-07.52.10:145][387]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.10.25-07.52.10:145][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-07.52.11:289][521]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.10.25-07.52.11:289][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-07.52.38:344][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.10.25-07.52.38:371][722]LogSavePackage: Moving output files for package: /Game/Levels/ArcadeLevel
+[2022.10.25-07.52.38:371][722]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/ArcadeLevel8580C7D44F6AB52DD410E3BEF22D0D49.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Levels/ArcadeLevel.umap'
+[2022.10.25-07.52.38:381][722]LogFileHelpers: No new changes to save!
+[2022.10.25-07.52.38:392][722]AssetCheck: New page: Asset Save: ArcadeLevel
+[2022.10.25-07.52.38:392][722]LogContentValidation: Display: Validating World /Game/Levels/ArcadeLevel.ArcadeLevel
+[2022.10.25-07.52.47:196][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.10.25-07.52.47:622][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.10.25-07.52.47:764][327]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.10.25-07.52.49:029][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.10.25-07.52.49:054][466]LogSavePackage: Moving output files for package: /Game/Levels/ArcadeLevel
+[2022.10.25-07.52.49:054][466]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/ArcadeLevelD315226044F4D7CDB2D8748FA2FF1248.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Levels/ArcadeLevel.umap'
+[2022.10.25-07.52.49:063][466]LogFileHelpers: No new changes to save!
+[2022.10.25-07.52.49:074][466]AssetCheck: New page: Asset Save: ArcadeLevel
+[2022.10.25-07.52.49:074][466]LogContentValidation: Display: Validating World /Game/Levels/ArcadeLevel.ArcadeLevel
