@@ -2033,3 +2033,125 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.25-07.42.56:610][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
 [2022.10.25-07.42.58:263][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
 [2022.10.25-07.42.58:506][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.10.25-07.44.33:305][796]LogViewport: Scene viewport resized to 939x660, mode Windowed.
+[2022.10.25-07.45.35:108][ 53]Cmd: MODE GRID=0
+[2022.10.25-07.45.39:289][546]BlueprintLog: New page: Compile BP_Ketsy
+[2022.10.25-07.45.39:352][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.10.25-07.45.39:873][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Characters/BP_Ketsy" FILE="C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Core/Characters/BP_Ketsy.uasset" SILENT=true
+[2022.10.25-07.45.39:875][604]LogSavePackage: Moving output files for package: /Game/Core/Characters/BP_Ketsy
+[2022.10.25-07.45.39:876][604]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/BP_Ketsy2F809CC94750EEF7DEFAB79F4B2D238C.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Core/Characters/BP_Ketsy.uasset'
+[2022.10.25-07.45.39:886][604]AssetCheck: New page: Asset Save: BP_Ketsy
+[2022.10.25-07.45.39:886][604]LogContentValidation: Display: Validating Blueprint /Game/Core/Characters/BP_Ketsy.BP_Ketsy
+[2022.10.25-07.45.50:173][779]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.10.25-07.45.51:727][949]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.10.25-07.46.02:026][157]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.25-07.46.02:032][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.25-07.46.02:032][157]PIE: New page: PIE session: ArcadeLevel (Oct 24, 2022, 9:46:02 PM)
+[2022.10.25-07.46.02:032][157]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ArcadeLevel
+[2022.10.25-07.46.02:042][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009585s)
+[2022.10.25-07.46.02:042][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ArcadeLevel.ArcadeLevel to /Game/Levels/UEDPIE_0_ArcadeLevel.ArcadeLevel (0.009651s)
+[2022.10.25-07.46.02:042][157]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.25-07.46.02:042][157]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.25-07.46.02:042][157]LogAIModule: Creating AISystem for world ArcadeLevel
+[2022.10.25-07.46.02:042][157]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2022.10.25-07.46.02:073][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.10.25-07.46.02:075][157]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.10.25-07.46.02:075][157]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.25-07.46.02:075][157]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.25-07.46.02:075][157]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.25-07.46.02:075][157]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.25-07.46.02:075][157]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.25-07.46.02:075][157]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.25-07.46.02:075][157]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.25-07.46.02:075][157]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.25-07.46.02:075][157]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.25-07.46.02:075][157]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.25-07.46.02:075][157]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.25-07.46.02:077][157]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.25-07.46.02:099][157]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2022.10.25-07.46.02:099][157]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.25-07.46.02:099][157]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.25-07.46.02:099][157]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.25-07.46.02:100][157]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2022.10.25-07.46.02:100][157]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2022.10.25-07.46.02:102][157]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2022.10.25-07.46.02:102][157]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2022.10.25-07.46.02:102][157]LogInit: FAudioDevice initialized.
+[2022.10.25-07.46.02:102][157]LogAudio: Display: Audio Device (ID: 5) registered with world 'ArcadeLevel'.
+[2022.10.25-07.46.02:115][157]LogLoad: Game class is 'GameModeBase'
+[2022.10.25-07.46.02:119][157]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ArcadeLevel.ArcadeLevel up for play (max tick rate 0) at 2022.10.25-02.46.02
+[2022.10.25-07.46.02:119][157]LogWorld: Bringing up level for play took: 0.004339
+[2022.10.25-07.46.02:121][157]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2022.10.25-07.46.02:122][157]LogTemp: Warning: No animation class defined on 'Animation', cannot create instance.
+[2022.10.25-07.46.02:122][157]PIE: Server logged in
+[2022.10.25-07.46.02:123][157]PIE: Play in editor total start time 0.091 seconds.
+[2022.10.25-07.46.49:982][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.25-07.46.49:982][883]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ArcadeLevel
+[2022.10.25-07.46.49:982][883]LogWorld: UWorld::CleanupWorld for ArcadeLevel, bSessionEnded=true, bCleanupResources=true
+[2022.10.25-07.46.49:983][883]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-07.46.49:997][883]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.25-07.46.50:002][883]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-07.46.50:033][883]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.25-07.46.50:033][883]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.10.25-07.46.50:035][883]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.10.25-07.46.50:038][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.25-07.46.50:042][883]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2022.10.25-07.46.50:102][884]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.10.25-07.47.03:039][348]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.25-07.47.03:045][348]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.25-07.47.03:045][348]PIE: New page: PIE session: ArcadeLevel (Oct 24, 2022, 9:47:03 PM)
+[2022.10.25-07.47.03:045][348]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ArcadeLevel
+[2022.10.25-07.47.03:055][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010043s)
+[2022.10.25-07.47.03:055][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ArcadeLevel.ArcadeLevel to /Game/Levels/UEDPIE_0_ArcadeLevel.ArcadeLevel (0.010122s)
+[2022.10.25-07.47.03:055][348]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.25-07.47.03:056][348]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.25-07.47.03:056][348]LogAIModule: Creating AISystem for world ArcadeLevel
+[2022.10.25-07.47.03:056][348]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2022.10.25-07.47.03:086][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.10.25-07.47.03:088][348]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.10.25-07.47.03:088][348]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.25-07.47.03:088][348]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.25-07.47.03:088][348]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.25-07.47.03:088][348]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.25-07.47.03:088][348]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.25-07.47.03:088][348]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.25-07.47.03:088][348]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.25-07.47.03:088][348]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.25-07.47.03:088][348]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.25-07.47.03:088][348]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.25-07.47.03:088][348]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.25-07.47.03:090][348]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.25-07.47.03:111][348]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2022.10.25-07.47.03:112][348]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.25-07.47.03:112][348]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.25-07.47.03:112][348]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.25-07.47.03:112][348]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2022.10.25-07.47.03:112][348]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2022.10.25-07.47.03:114][348]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2022.10.25-07.47.03:114][348]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2022.10.25-07.47.03:114][348]LogInit: FAudioDevice initialized.
+[2022.10.25-07.47.03:114][348]LogAudio: Display: Audio Device (ID: 6) registered with world 'ArcadeLevel'.
+[2022.10.25-07.47.03:124][348]LogLoad: Game class is 'GameModeBase'
+[2022.10.25-07.47.03:128][348]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ArcadeLevel.ArcadeLevel up for play (max tick rate 0) at 2022.10.25-02.47.03
+[2022.10.25-07.47.03:128][348]LogWorld: Bringing up level for play took: 0.004354
+[2022.10.25-07.47.03:130][348]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2022.10.25-07.47.03:131][348]LogTemp: Warning: No animation class defined on 'Animation', cannot create instance.
+[2022.10.25-07.47.03:131][348]PIE: Server logged in
+[2022.10.25-07.47.03:132][348]PIE: Play in editor total start time 0.087 seconds.
+[2022.10.25-07.47.25:492][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.25-07.47.25:492][ 17]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ArcadeLevel
+[2022.10.25-07.47.25:493][ 17]LogWorld: UWorld::CleanupWorld for ArcadeLevel, bSessionEnded=true, bCleanupResources=true
+[2022.10.25-07.47.25:493][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-07.47.25:507][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.25-07.47.25:512][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.25-07.47.25:542][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.25-07.47.25:542][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.10.25-07.47.25:544][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.10.25-07.47.25:550][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.10.25-07.47.25:614][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.10.25-07.47.26:677][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.10.25-07.47.26:702][127]LogSavePackage: Moving output files for package: /Game/Levels/ArcadeLevel
+[2022.10.25-07.47.26:702][127]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/ArcadeLevel0A745CA141E7509FCAC8E8BDC9A3C2B3.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Levels/ArcadeLevel.umap'
+[2022.10.25-07.47.26:711][127]LogFileHelpers: No new changes to save!
+[2022.10.25-07.47.26:723][127]AssetCheck: New page: Asset Save: ArcadeLevel
+[2022.10.25-07.47.26:723][127]LogContentValidation: Display: Validating World /Game/Levels/ArcadeLevel.ArcadeLevel
