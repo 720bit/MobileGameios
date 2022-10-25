@@ -1375,3 +1375,248 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.25-06.22.05:442][153]LogFileHelpers: No new changes to save!
 [2022.10.25-06.22.05:453][153]AssetCheck: New page: Asset Save: ArcadeLevel
 [2022.10.25-06.22.05:454][153]LogContentValidation: Display: Validating World /Game/Levels/ArcadeLevel.ArcadeLevel
+[2022.10.25-06.27.15:170][ 52]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2022.10.25-06.27.15:170][ 52]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2022.10.25-06.27.15:171][ 52]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/ArcadeLevel.ArcadeLevel:PersistentLevel.StaticMeshActor_0
+[2022.10.25-06.27.15:179][ 52]LogMaterial: Display: Missing cached shadermap for BasicShapeMaterial in PCD3D_ES3_1, Default, ES3_1 (DDC key hash: 906DAB99D28BBBE6B6D37A99D299FD89750671E6), compiling. 
+[2022.10.25-06.27.15:355][ 52]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/ArcadeLevel.ArcadeLevel:PersistentLevel.StaticMeshActor_0
+[2022.10.25-06.27.17:624][213]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2022.10.25-06.27.17:624][213]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2022.10.25-06.27.17:625][213]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/ArcadeLevel.ArcadeLevel:PersistentLevel.StaticMeshActor_2
+[2022.10.25-06.27.17:625][213]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/ArcadeLevel.ArcadeLevel:PersistentLevel.StaticMeshActor_2
+[2022.10.25-06.27.18:654][272]Cmd: DELETE
+[2022.10.25-06.27.18:654][272]Cmd: ACTOR DELETE
+[2022.10.25-06.27.18:659][272]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.25-06.27.18:697][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.10.25-06.27.18:701][272]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: ================================================
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: Total job queries 5644, among them cache hits 7 (0.12%)
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: Tracking 5509 distinct input hashes that result in 1892 distinct outputs (34.34%)
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: RAM used: 5.27 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.32%
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: Shaders Compiled: 5637
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: Jobs assigned 5621, completed 5509 (98.01%)
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: Average time worker was idle: 51.24 s
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: Time job spent in pending queue: average 230.22 s, longest 510.74 s
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: Job execution time: average 11.16 s, max 22.39 s
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: Job life time (pending + execution): average 246.05 s, max 511.36
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 535.43 s
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: Jobs were issued in 646 batches (only local compilation was used), average 8.70 jobs/batch
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: Average processing rate: 10.29 jobs/sec
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: Effective parallelization: 11.65 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 2.96 sec, max 3.61 sec, min 2.32 sec)
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    2 times, average 2.68 sec, max 2.84 sec, min 2.52 sec)
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    2 times, average 2.66 sec, max 2.82 sec, min 2.50 sec)
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 2.64 sec, max 3.14 sec, min 2.14 sec)
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 2.53 sec, max 2.71 sec, min 2.35 sec)
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display:                TMobileBasePassVSFNoLightMapPolicyHDRLinear64 - 7.31% of total time (compiled  326 times, average 1.40 sec, max 5.15 sec, min 0.46 sec)
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display:                                             FDebugViewModeVS - 5.52% of total time (compiled  331 times, average 1.04 sec, max 3.57 sec, min 0.34 sec)
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display:                                                  FVelocityVS - 4.41% of total time (compiled  209 times, average 1.32 sec, max 4.24 sec, min 0.46 sec)
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display:               TMobileBasePassPSFNoLightMapPolicy0HDRLinear64 - 4.17% of total time (compiled  326 times, average 0.80 sec, max 2.96 sec, min 0.30 sec)
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: TMobileBasePassPSFMobileDirectionalLightCSMAndSHIndirectPolicyINT32_MAXHDRLinear64Skylight - 3.86% of total time (compiled  141 times, average 1.71 sec, max 4.27 sec, min 0.68 sec)
+[2022.10.25-06.27.21:052][409]LogShaderCompilers: Display: ================================================
+[2022.10.25-06.32.16:257][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.10.25-06.32.16:272][923]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/ArcadeLevel_Auto1
+[2022.10.25-06.32.16:272][923]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/ArcadeLevel_Auto1A46C175E4F59027743D47A9D0EA04CB7.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/Autosaves/Game/Levels/ArcadeLevel_Auto1.umap'
+[2022.10.25-06.32.16:278][923]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/ArcadeLevel' took 0.043
+[2022.10.25-06.32.16:278][923]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.043
+[2022.10.25-06.32.36:665][985]LogDerivedDataCache: C:/Users/MichaelRyzen9/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.095 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.25-07.02.51:840][628]Cmd: STAT FPS
+[2022.10.25-07.03.03:638][ 22]Cmd: DELETE
+[2022.10.25-07.03.03:638][ 22]Cmd: ACTOR DELETE
+[2022.10.25-07.03.03:639][ 22]LogEditorActor: Deleted Actor: VolumetricCloud
+[2022.10.25-07.03.03:658][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.10.25-07.03.03:661][ 22]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2022.10.25-07.03.07:769][507]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.10.25-07.03.07:775][507]LogSavePackage: Moving output files for package: /Game/Levels/ArcadeLevel
+[2022.10.25-07.03.07:776][507]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/ArcadeLevelC77833664DE6C7FD10F1919B892065BA.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Levels/ArcadeLevel.umap'
+[2022.10.25-07.03.07:783][507]LogFileHelpers: No new changes to save!
+[2022.10.25-07.03.07:794][507]AssetCheck: New page: Asset Save: ArcadeLevel
+[2022.10.25-07.03.07:794][507]LogContentValidation: Display: Validating World /Game/Levels/ArcadeLevel.ArcadeLevel
+[2022.10.25-07.03.16:164][785]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-HCKB8B1
+[2022.10.25-07.05.16:593][307]LogMaterial: Display: Missing cached shadermap for TranslucentUnlitSpriteMaterial in PCD3D_ES3_1, Default, ES3_1 (DDC key hash: C7F8C2B3B931DD2C98936B94FB25E58E07E870CD), compiling. 
+[2022.10.25-07.05.17:058][334]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.25-07.05.17:059][334]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.25-07.05.18:131][401]LogContentBrowser: Deferred new asset file creation: KetsyPixelChar1
+[2022.10.25-07.05.18:158][401]LogContentBrowser: Creating deferred item: KetsyPixelChar1
+[2022.10.25-07.05.18:208][402]LogContentBrowser: Renaming the item being created (Deferred Item: KetsyPixelChar1).
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: ================================================
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: Total job queries 5659, among them cache hits 7 (0.12%)
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: Tracking 5641 distinct input hashes that result in 1958 distinct outputs (34.71%)
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: RAM used: 5.45 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.33%
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: Shaders Compiled: 5652
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: Jobs assigned 5652, completed 5641 (99.81%)
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: Average time worker was idle: 77.49 s
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: Time job spent in pending queue: average 228.97 s, longest 510.74 s
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: Job execution time: average 11.02 s, max 22.39 s
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: Job life time (pending + execution): average 240.44 s, max 511.36
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 538.64 s
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: Jobs were issued in 666 batches (only local compilation was used), average 8.49 jobs/batch
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: Average processing rate: 10.47 jobs/sec
+[2022.10.25-07.05.18:284][407]LogShaderCompilers: Display: Effective parallelization: 11.71 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2022.10.25-07.05.18:285][407]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.25-07.05.18:285][407]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 2.96 sec, max 3.61 sec, min 2.32 sec)
+[2022.10.25-07.05.18:285][407]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    2 times, average 2.68 sec, max 2.84 sec, min 2.52 sec)
+[2022.10.25-07.05.18:285][407]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    2 times, average 2.66 sec, max 2.82 sec, min 2.50 sec)
+[2022.10.25-07.05.18:285][407]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 2.64 sec, max 3.14 sec, min 2.14 sec)
+[2022.10.25-07.05.18:285][407]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 2.53 sec, max 2.71 sec, min 2.35 sec)
+[2022.10.25-07.05.18:285][407]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.25-07.05.18:285][407]LogShaderCompilers: Display:                TMobileBasePassVSFNoLightMapPolicyHDRLinear64 - 7.25% of total time (compiled  329 times, average 1.39 sec, max 5.15 sec, min 0.46 sec)
+[2022.10.25-07.05.18:285][407]LogShaderCompilers: Display:                                             FDebugViewModeVS - 5.46% of total time (compiled  333 times, average 1.04 sec, max 3.57 sec, min 0.34 sec)
+[2022.10.25-07.05.18:285][407]LogShaderCompilers: Display:                                                  FVelocityVS - 4.36% of total time (compiled  209 times, average 1.32 sec, max 4.24 sec, min 0.46 sec)
+[2022.10.25-07.05.18:285][407]LogShaderCompilers: Display:               TMobileBasePassPSFNoLightMapPolicy0HDRLinear64 - 4.16% of total time (compiled  331 times, average 0.79 sec, max 2.96 sec, min 0.30 sec)
+[2022.10.25-07.05.18:285][407]LogShaderCompilers: Display: TMobileBasePassPSFMobileDirectionalLightCSMAndSHIndirectPolicyINT32_MAXHDRLinear64Skylight - 3.85% of total time (compiled  144 times, average 1.69 sec, max 4.27 sec, min 0.66 sec)
+[2022.10.25-07.05.18:285][407]LogShaderCompilers: Display: ================================================
+[2022.10.25-07.05.40:292][995]LogContentBrowser: Attempting asset rename: KetsyPixelChar1 -> FP_KetsyWalkForward
+[2022.10.25-07.05.40:293][995]LogContentBrowser: End creating deferred item KetsyPixelChar1
+[2022.10.25-07.05.58:794][ 97]LogContentBrowser: Deferred new asset file creation: KetsyPixelChar1
+[2022.10.25-07.05.58:818][ 97]LogContentBrowser: Creating deferred item: KetsyPixelChar1
+[2022.10.25-07.05.58:828][ 98]LogContentBrowser: Renaming the item being created (Deferred Item: KetsyPixelChar1).
+[2022.10.25-07.06.13:991][908]LogContentBrowser: Attempting asset rename: KetsyPixelChar1 -> FP_KetsyWalkLeft
+[2022.10.25-07.06.13:991][908]LogContentBrowser: End creating deferred item KetsyPixelChar1
+[2022.10.25-07.06.18:098][370]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.25-07.06.18:098][370]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.25-07.06.18:673][432]LogContentBrowser: Deferred new asset file creation: KetsyPixelChar1
+[2022.10.25-07.06.18:682][432]LogContentBrowser: Creating deferred item: KetsyPixelChar1
+[2022.10.25-07.06.18:693][433]LogContentBrowser: Renaming the item being created (Deferred Item: KetsyPixelChar1).
+[2022.10.25-07.06.36:929][597]LogContentBrowser: Attempting asset rename: KetsyPixelChar1 -> FP_KetsyWalkRight
+[2022.10.25-07.06.36:930][597]LogContentBrowser: End creating deferred item KetsyPixelChar1
+[2022.10.25-07.06.44:630][446]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.25-07.06.44:630][446]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.25-07.06.45:101][492]LogContentBrowser: Deferred new asset file creation: KetsyPixelChar1
+[2022.10.25-07.06.45:112][492]LogContentBrowser: Creating deferred item: KetsyPixelChar1
+[2022.10.25-07.06.45:123][493]LogContentBrowser: Renaming the item being created (Deferred Item: KetsyPixelChar1).
+[2022.10.25-07.07.04:434][797]LogContentBrowser: Attempting asset rename: KetsyPixelChar1 -> FP_KetsyWalkBack
+[2022.10.25-07.07.04:435][797]LogContentBrowser: End creating deferred item KetsyPixelChar1
+[2022.10.25-07.07.23:436][928]LogContentBrowser: Attempting asset rename: FP_KetsyWalkForward -> FP_KetsyWalkB
+[2022.10.25-07.07.23:510][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/CharacterPNG/FP_KetsyWalkB" FILE="C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/FP_KetsyWalkB.uasset" SILENT=true
+[2022.10.25-07.07.23:511][928]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/FP_KetsyWalkB
+[2022.10.25-07.07.23:511][928]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkB13C1DE084B7BBBBE91AC8B97A2F9E46C.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/FP_KetsyWalkB.uasset'
+[2022.10.25-07.07.23:548][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.10.25-07.07.23:569][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.10.25-07.07.23:588][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.10.25-07.07.23:595][928]AssetCheck: New page: Asset Save: FP_KetsyWalkB
+[2022.10.25-07.07.23:595][928]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/CharacterPNG/FP_KetsyWalkB.FP_KetsyWalkB
+[2022.10.25-07.07.34:306][168]LogContentBrowser: Attempting asset rename: FP_KetsyWalkBack -> FP_KetsyWalkForward
+[2022.10.25-07.07.34:349][168]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/FP_KetsyWalkForward
+[2022.10.25-07.07.34:349][168]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkForwardA025A01A4F95113CC399328941C82789.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/FP_KetsyWalkForward.uasset'
+[2022.10.25-07.07.34:383][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.10.25-07.07.34:404][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.10.25-07.07.34:422][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.10.25-07.07.34:429][168]AssetCheck: New page: Asset Save: FP_KetsyWalkForward
+[2022.10.25-07.07.34:429][168]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/CharacterPNG/FP_KetsyWalkForward.FP_KetsyWalkForward
+[2022.10.25-07.07.53:095][341]LogContentBrowser: Attempting asset rename: FP_KetsyWalkB -> FP_KetsyWalkBackward
+[2022.10.25-07.07.53:138][341]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/FP_KetsyWalkBackward
+[2022.10.25-07.07.53:138][341]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkBackwardB861DBA148C24C4591C2099ECA7C51E5.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/FP_KetsyWalkBackward.uasset'
+[2022.10.25-07.07.53:176][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.10.25-07.07.53:198][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.10.25-07.07.53:216][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.10.25-07.07.53:222][341]AssetCheck: New page: Asset Save: FP_KetsyWalkBackward
+[2022.10.25-07.07.53:222][341]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/CharacterPNG/FP_KetsyWalkBackward.FP_KetsyWalkBackward
+[2022.10.25-07.08.08:933][ 92]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.10.25-07.08.08:960][ 92]LogContentBrowser: Creating deferred item: NewFolder
+[2022.10.25-07.08.08:970][ 93]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.10.25-07.08.24:760][987]LogContentBrowser: Attempting asset rename: NewFolder -> KetsyAssets
+[2022.10.25-07.08.24:761][987]LogContentBrowser: End creating deferred item NewFolder
+[2022.10.25-07.08.31:348][706]LogSavePackage: Moving output files for package: /Game/Assets/KetsyAssets/FP_KetsyWalkBackward
+[2022.10.25-07.08.31:348][706]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkBackwardA35BB0A944661A820DA482BCC61EDA1E.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/KetsyAssets/FP_KetsyWalkBackward.uasset'
+[2022.10.25-07.08.31:349][706]LogSavePackage: Moving output files for package: /Game/Assets/KetsyAssets/FP_KetsyWalkForward
+[2022.10.25-07.08.31:349][706]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkForwardE2A425DB48B00065D99CF0B543DDD60F.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/KetsyAssets/FP_KetsyWalkForward.uasset'
+[2022.10.25-07.08.31:352][706]LogSavePackage: Moving output files for package: /Game/Assets/KetsyAssets/FP_KetsyWalkLeft
+[2022.10.25-07.08.31:352][706]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkLeft692CB9A940A2647672D5F593F9110A81.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/KetsyAssets/FP_KetsyWalkLeft.uasset'
+[2022.10.25-07.08.31:354][706]LogSavePackage: Moving output files for package: /Game/Assets/KetsyAssets/FP_KetsyWalkRight
+[2022.10.25-07.08.31:355][706]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkRight9AEE3BE146D5B87F1FB299BA06789019.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/KetsyAssets/FP_KetsyWalkRight.uasset'
+[2022.10.25-07.08.31:416][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2022.10.25-07.08.31:437][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.10.25-07.08.31:456][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.10.25-07.08.31:476][706]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.25-07.08.31:476][706]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/KetsyAssets/FP_KetsyWalkForward.FP_KetsyWalkForward
+[2022.10.25-07.08.31:476][706]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/KetsyAssets/FP_KetsyWalkRight.FP_KetsyWalkRight
+[2022.10.25-07.08.31:476][706]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/KetsyAssets/FP_KetsyWalkLeft.FP_KetsyWalkLeft
+[2022.10.25-07.08.31:476][706]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/KetsyAssets/FP_KetsyWalkBackward.FP_KetsyWalkBackward
+[2022.10.25-07.08.35:841][165]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.10.25-07.08.35:866][165]LogContentBrowser: Creating deferred item: NewFolder
+[2022.10.25-07.08.35:876][166]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.10.25-07.08.40:046][666]LogContentBrowser: Attempting asset rename: NewFolder -> KetsyPNG
+[2022.10.25-07.08.40:046][666]LogContentBrowser: End creating deferred item NewFolder
+[2022.10.25-07.08.45:162][221]LogSavePackage: Moving output files for package: /Game/Assets/KetsyAssets/FP_KetsyWalkBackward
+[2022.10.25-07.08.45:163][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkBackwardF376DA9A49C29D5A342012A1215B33D4.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/KetsyAssets/FP_KetsyWalkBackward.uasset'
+[2022.10.25-07.08.45:164][221]LogSavePackage: Moving output files for package: /Game/Assets/KetsyAssets/FP_KetsyWalkLeft
+[2022.10.25-07.08.45:164][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkLeft051551564F95363984280F9E4DF0B2C4.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/KetsyAssets/FP_KetsyWalkLeft.uasset'
+[2022.10.25-07.08.45:166][221]LogSavePackage: Moving output files for package: /Game/Assets/KetsyAssets/FP_KetsyWalkRight
+[2022.10.25-07.08.45:166][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkRightA473464142E40239AD6AEEBB17F76606.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/KetsyAssets/FP_KetsyWalkRight.uasset'
+[2022.10.25-07.08.45:167][221]LogSavePackage: Moving output files for package: /Game/Assets/KetsyAssets/FP_KetsyWalkForward
+[2022.10.25-07.08.45:168][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/FP_KetsyWalkForward4AD70B4E45FCAA1C24EF9AA8EE837763.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/KetsyAssets/FP_KetsyWalkForward.uasset'
+[2022.10.25-07.08.45:195][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar
+[2022.10.25-07.08.45:195][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelCharBE4403D942A1EAD5EFACF5A4F991CE4F.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar.uasset'
+[2022.10.25-07.08.45:197][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_0
+[2022.10.25-07.08.45:197][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_0BA1CF2B14DD9383906D2778293E4BD1E.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_0.uasset'
+[2022.10.25-07.08.45:198][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_1
+[2022.10.25-07.08.45:198][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_119E0A25841524F58B25D70A58E7D244F.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_1.uasset'
+[2022.10.25-07.08.45:199][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_2
+[2022.10.25-07.08.45:199][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_20DB638974687F1AFFF5F6081228446E6.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_2.uasset'
+[2022.10.25-07.08.45:201][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_3
+[2022.10.25-07.08.45:201][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_3CD1D242D431424453A745C9713342AA7.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_3.uasset'
+[2022.10.25-07.08.45:202][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_4
+[2022.10.25-07.08.45:202][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_4557D4D9E43386D02F8E17AB48062C078.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_4.uasset'
+[2022.10.25-07.08.45:203][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_5
+[2022.10.25-07.08.45:203][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_5085BC7A24B4E7E3C609C9F88E78383BF.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_5.uasset'
+[2022.10.25-07.08.45:205][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_6
+[2022.10.25-07.08.45:205][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_6E62CA2254EC2A0589CAE7D89705E4448.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_6.uasset'
+[2022.10.25-07.08.45:206][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_7
+[2022.10.25-07.08.45:206][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_764650BA743CF53EC827A1BA2B9C38E79.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_7.uasset'
+[2022.10.25-07.08.45:208][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_8
+[2022.10.25-07.08.45:208][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_8CB6F84514E7EF028980B9D85BFEDF460.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_8.uasset'
+[2022.10.25-07.08.45:209][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_9
+[2022.10.25-07.08.45:209][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_922CF9E4A49DDF249F190109626529CD9.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_9.uasset'
+[2022.10.25-07.08.45:210][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_10
+[2022.10.25-07.08.45:210][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_10574C64404290D7099318A5BECD4F58F4.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_10.uasset'
+[2022.10.25-07.08.45:212][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_11
+[2022.10.25-07.08.45:212][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_11AAFF8E054FCF9020B115138DC5DB2398.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_11.uasset'
+[2022.10.25-07.08.45:213][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_12
+[2022.10.25-07.08.45:214][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_12AA86190D424F6AC946AC3CA145B136CF.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_12.uasset'
+[2022.10.25-07.08.45:215][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_13
+[2022.10.25-07.08.45:215][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_13F9636A864E54397258D1BC8521B3C6AB.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_13.uasset'
+[2022.10.25-07.08.45:216][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_14
+[2022.10.25-07.08.45:216][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_1447C72710414F20F701854695FB8DC6B2.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_14.uasset'
+[2022.10.25-07.08.45:218][221]LogSavePackage: Moving output files for package: /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_15
+[2022.10.25-07.08.45:218][221]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/KetsyPixelChar_Sprite_154210F6FA4BB74F5E5C2DEEA74CAA7DBD.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_15.uasset'
+[2022.10.25-07.08.45:376][221]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.10.25-07.08.45:397][221]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.10.25-07.08.45:417][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.10.25-07.08.45:441][221]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/KetsyAssets/FP_KetsyWalkForward.FP_KetsyWalkForward
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_15.KetsyPixelChar_Sprite_15
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_14.KetsyPixelChar_Sprite_14
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_13.KetsyPixelChar_Sprite_13
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_12.KetsyPixelChar_Sprite_12
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/KetsyAssets/FP_KetsyWalkRight.FP_KetsyWalkRight
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_11.KetsyPixelChar_Sprite_11
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_10.KetsyPixelChar_Sprite_10
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_9.KetsyPixelChar_Sprite_9
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_8.KetsyPixelChar_Sprite_8
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/KetsyAssets/FP_KetsyWalkLeft.FP_KetsyWalkLeft
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_7.KetsyPixelChar_Sprite_7
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_6.KetsyPixelChar_Sprite_6
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_5.KetsyPixelChar_Sprite_5
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_4.KetsyPixelChar_Sprite_4
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/KetsyAssets/FP_KetsyWalkBackward.FP_KetsyWalkBackward
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_3.KetsyPixelChar_Sprite_3
+[2022.10.25-07.08.45:441][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_2.KetsyPixelChar_Sprite_2
+[2022.10.25-07.08.45:442][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_1.KetsyPixelChar_Sprite_1
+[2022.10.25-07.08.45:442][221]LogContentValidation: Display: Validating PaperSprite /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar_Sprite_0.KetsyPixelChar_Sprite_0
+[2022.10.25-07.08.45:442][221]LogContentValidation: Display: Validating Texture2D /Game/Assets/CharacterPNG/KetsyPNG/KetsyPixelChar.KetsyPixelChar
+[2022.10.25-07.08.47:676][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.10.25-07.08.47:683][467]LogSavePackage: Moving output files for package: /Game/Levels/ArcadeLevel
+[2022.10.25-07.08.47:683][467]LogSavePackage: Moving 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Saved/ArcadeLevelDD085A2D4B35E51A4DC33CBF9DA5A184.tmp' to 'C:/Users/MichaelRyzen9/Documents/GitHub/Repos/MobileGameios/Ketsy/Content/Levels/ArcadeLevel.umap'
+[2022.10.25-07.08.47:692][467]LogFileHelpers: No new changes to save!
+[2022.10.25-07.08.47:704][467]AssetCheck: New page: Asset Save: ArcadeLevel
+[2022.10.25-07.08.47:704][467]LogContentValidation: Display: Validating World /Game/Levels/ArcadeLevel.ArcadeLevel
+[2022.10.25-07.08.50:308][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.10.25-07.08.51:487][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.10.25-07.08.51:695][924]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
